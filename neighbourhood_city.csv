@@ -1,0 +1,649 @@
+neighbourhood,city
+South Boston,Boston
+Jamaica Plain,Boston
+Beacon Hill,Boston
+Mission Hill,Boston
+West Roxbury,Boston
+Charlestown,Boston
+South End,Boston
+Allston-Brighton,Boston
+Chinatown,Boston
+Roxbury,Boston
+North End,Boston
+Fenway/Kenmore,Boston
+West End,Boston
+Downtown Crossing,Boston
+Dorchester,Boston
+Back Bay,Boston
+Winthrop,Boston
+East Boston,Boston
+Downtown,Boston
+Hyde Park,Boston
+Theater District,Boston
+Roslindale,Boston
+Chestnut Hill,Boston
+Somerville,Boston
+Mattapan,Boston
+Cambridge,Boston
+Government Center,Boston
+Leather District,Boston
+Financial District,Boston
+Brookline,Boston
+Coolidge Corner,Boston
+Harvard Square,Boston
+Newton,Boston
+Watertown,Boston
+Humboldt Park,Chicago
+Wicker Park,Chicago
+South Loop/Printers Row,Chicago
+Pilsen,Chicago
+nan,Chicago
+Lakeview,Chicago
+Streeterville,Chicago
+Belmont Cragin,Chicago
+River North,Chicago
+Gold Coast,Chicago
+Edgewater,Chicago
+West Town/Noble Square,Chicago
+Uptown,Chicago
+Ukrainian Village,Chicago
+Lincoln Park,Chicago
+West Loop/Greektown,Chicago
+Portage Park,Chicago
+Lincoln Square,Chicago
+Hyde Park,Chicago
+Old Town,Chicago
+Boystown,Chicago
+West Ridge,Chicago
+Avondale,Chicago
+Irving Park,Chicago
+Bronzeville,Chicago
+Austin,Chicago
+Logan Square,Chicago
+Bucktown,Chicago
+Loop,Chicago
+Bridgeport,Chicago
+Little Italy/UIC,Chicago
+Norwood Park,Chicago
+Chinatown,Chicago
+Andersonville,Chicago
+Rogers Park,Chicago
+Englewood,Chicago
+Near West Side,Chicago
+Grand Crossing,Chicago
+Roscoe Village,Chicago
+Garfield Park,Chicago
+River West,Chicago
+Dunning,Chicago
+Near North Side,Chicago
+South Shore,Chicago
+Woodlawn,Chicago
+North Center,Chicago
+McKinley Park,Chicago
+Little Village,Chicago
+Chatham,Chicago
+Kenwood,Chicago
+Printers Row,Chicago
+Jefferson Park,Chicago
+West Lawn,Chicago
+West Town,Chicago
+North Lawndale,Chicago
+Wrigleyville,Chicago
+Archer Heights,Chicago
+West Elsdon,Chicago
+Back of the Yards,Chicago
+Pullman,Chicago
+Hermosa,Chicago
+Albany Park,Chicago
+Washington Park,Chicago
+Oakland,Chicago
+Clearing,Chicago
+North Park,Chicago
+Washington Heights,Chicago
+Auburn Gresham,Chicago
+O'Hare,Chicago
+Galewood,Chicago
+Armour Square,Chicago
+Brighton Park,Chicago
+Morgan Park,Chicago
+Roseland,Chicago
+Edison Park,Chicago
+South Chicago,Chicago
+Garfield Ridge,Chicago
+Ashburn,Chicago
+Beverly,Chicago
+Magnificent Mile,Chicago
+Montclare,Chicago
+Columbia Heights,DC
+U Street Corridor,DC
+Dupont Circle,DC
+nan,DC
+Brookland,DC
+Hillbrook,DC
+Shaw,DC
+Hillcrest,DC
+Kingman Park,DC
+Cleveland Park,DC
+Glover Park,DC
+Georgetown,DC
+Park View,DC
+Capitol Hill,DC
+Foggy Bottom,DC
+Mount Pleasant,DC
+Near Northeast/H Street Corridor,DC
+Woodridge,DC
+Petworth,DC
+Colonial Village,DC
+LeDroit Park,DC
+Bloomingdale,DC
+Judiciary Square,DC
+Manor Park,DC
+Benning Heights,DC
+16th Street Heights,DC
+Barney Circle,DC
+Michigan Park,DC
+Fort Totten,DC
+Trinidad,DC
+Chevy Chase,DC
+Anacostia,DC
+Adams Morgan,DC
+Logan Circle,DC
+Fort Dupont,DC
+Stronghold,DC
+Kalorama,DC
+Downtown/Penn Quarter,DC
+Southwest Waterfront,DC
+Bellevue,DC
+Truxton Circle,DC
+Fairlawn,DC
+Navy Yard,DC
+Mount Vernon Square,DC
+West End,DC
+Fort Lincoln,DC
+Eckington,DC
+River Terrace,DC
+Forest Hills,DC
+North Michigan Park,DC
+Congress Heights,DC
+Woodley Park,DC
+Central Northeast/Mahaning Heights,DC
+Crestwood,DC
+Edgewood,DC
+Ivy City,DC
+Palisades,DC
+"Mt Rainier/Brentwood, MD",DC
+East Corner,DC
+Takoma,DC
+Benning Ridge,DC
+Lincoln Heights,DC
+Lamond Riggs,DC
+Foxhall,DC
+Brentwood,DC
+Langdon,DC
+Douglass,DC
+Observatory Circle,DC
+Gateway,DC
+Carver Langston,DC
+Pleasant Plains,DC
+Marshall Heights,DC
+Benning,DC
+Randle Highlands,DC
+Kent,DC
+American University Park,DC
+Brightwood,DC
+Skyland,DC
+Cathedral Heights,DC
+Berkley,DC
+Pleasant Hill,DC
+Good Hope,DC
+"Bethesda, MD",DC
+Mt. Vernon Square,DC
+Friendship Heights,DC
+Wesley Heights,DC
+"Hilcrest Heights/Marlow Heights, MD",DC
+Twining,DC
+North Cleveland Park,DC
+Shepherd Park,DC
+Burleith,DC
+Gallaudet,DC
+Mt. Pleasant,DC
+Massachusetts Heights,DC
+Buena Vista,DC
+Deanwood,DC
+"Suitland-Silver Hill, MD",DC
+Dupont Park,DC
+"Chevy Chase, MD",DC
+Garfield Heights,DC
+Old Soldiers' Home,DC
+Eastland Gardens,DC
+Shipley Terrace,DC
+Greenway,DC
+St. Elizabeths,DC
+Washington Highlands,DC
+"Chillum, MD",DC
+Fort Davis,DC
+"Silver Spring, MD",DC
+Spring Valley,DC
+Naylor Gardens,DC
+Barry Farm,DC
+Arboretum,DC
+Woodland,DC
+"Takoma Park, MD",DC
+Near Northeast,DC
+Chinatown,DC
+nan,LA
+Downtown,LA
+Hermosa Beach,LA
+Torrance,LA
+Sherman Oaks,LA
+Valley Glen,LA
+Mid-Wilshire,LA
+Venice,LA
+West Hollywood,LA
+Westlake,LA
+Hollywood Hills,LA
+Pasadena,LA
+Los Feliz,LA
+Hollywood,LA
+Glendale,LA
+Arcadia,LA
+Burbank,LA
+Silver Lake,LA
+Studio City,LA
+Echo Park,LA
+Highland Park,LA
+Van Nuys,LA
+Del Rey,LA
+Marina Del Rey,LA
+Alhambra,LA
+Westwood,LA
+Malibu,LA
+North Hollywood,LA
+Pacoima,LA
+Lomita,LA
+Mid-City,LA
+Sun Valley,LA
+Cahuenga Pass,LA
+Cerritos,LA
+Arts District,LA
+Valley Village,LA
+West Adams,LA
+Santa Monica,LA
+Inglewood,LA
+Beverly Hills,LA
+East Hollywood,LA
+Gardena,LA
+Northridge,LA
+Toluca Lake,LA
+San Pedro,LA
+Lake Balboa,LA
+Pacific Palisades,LA
+Glendora,LA
+Mount Washington,LA
+Bel Air/Beverly Crest,LA
+Hawthorne,LA
+Redondo Beach,LA
+Culver City,LA
+North Hills West,LA
+Westchester/Playa Del Rey,LA
+Monterey Hills,LA
+Long Beach,LA
+Manhattan Beach,LA
+Laurel Canyon,LA
+South LA,LA
+Altadena,LA
+West Los Angeles,LA
+Azusa,LA
+Mar Vista,LA
+South Robertson,LA
+Topanga,LA
+Lawndale,LA
+Encino,LA
+East San Gabriel,LA
+Eagle Rock,LA
+Lincoln Heights,LA
+Bradbury,LA
+San Gabriel,LA
+Carson,LA
+Baldwin Hills,LA
+Brentwood,LA
+Woodland Hills/Warner Center,LA
+Glassell Park,LA
+Granada Hills North,LA
+Westside,LA
+Rancho Palos Verdes,LA
+Elysian Valley,LA
+Rosemead,LA
+Reseda,LA
+West Hills,LA
+Palms,LA
+South Pasadena,LA
+Sunland/Tujunga,LA
+El Segundo,LA
+Skid Row,LA
+Porter Ranch,LA
+Monterey Park,LA
+Lakewood,LA
+Chatsworth,LA
+Atwater Village,LA
+Compton,LA
+Tarzana,LA
+Winnetka,LA
+Temple City,LA
+Pico Rivera,LA
+El Monte,LA
+Hermon,LA
+Vernon,LA
+La Canada Flintridge,LA
+West Covina,LA
+Covina,LA
+Monrovia,LA
+West Athens,LA
+East Los Angeles,LA
+Sierra Madre,LA
+Whittier,LA
+West Puente Valley,LA
+Lynwood,LA
+La Puente,LA
+La Mirada,LA
+El Sereno,LA
+Boyle Heights,LA
+Palos Verdes,LA
+La Crescenta-Montrose,LA
+Harbor City,LA
+Panorama City,LA
+Cypress Park,LA
+Rolling Hills Estates,LA
+Harbor Gateway,LA
+Bellflower,LA
+Westmont,LA
+Florence-Graham,LA
+Canoga Park,LA
+North Hills East,LA
+South San Gabriel,LA
+Sylmar,LA
+Arleta,LA
+San Marino,LA
+Duarte,LA
+South Gate,LA
+Bell,LA
+Norwalk,LA
+Montecito Heights,LA
+Huntington Park,LA
+Hawaiian Gardens,LA
+South Whittier,LA
+Downey,LA
+Santa Fe Springs,LA
+Montebello,LA
+Artesia,LA
+Paramount,LA
+Baldwin Park,LA
+Mission Hills,LA
+Alondra Park,LA
+Watts,LA
+Signal Hill,LA
+Willowbrook,LA
+Wilmington,LA
+Commerce,LA
+South El Monte,LA
+La Habra,LA
+Irwindale,LA
+Rolling Hills,LA
+Brooklyn Heights,NYC
+Hell's Kitchen,NYC
+Harlem,NYC
+Alphabet City,NYC
+Lower East Side,NYC
+Flatbush,NYC
+East Flatbush,NYC
+Jamaica,NYC
+Forest Hills,NYC
+Murray Hill,NYC
+Lefferts Garden,NYC
+Brownsville,NYC
+Williamsburg,NYC
+East Village,NYC
+Upper East Side,NYC
+Bushwick,NYC
+Bedford-Stuyvesant,NYC
+Chelsea,NYC
+Greenwich Village,NYC
+Washington Heights,NYC
+Midtown East,NYC
+Park Slope,NYC
+West Village,NYC
+Astoria,NYC
+East Harlem,NYC
+Morningside Heights,NYC
+Tribeca,NYC
+Financial District,NYC
+Gramercy Park,NYC
+Sunset Park,NYC
+Upper West Side,NYC
+Greenpoint,NYC
+Prospect Heights,NYC
+Gravesend,NYC
+Flushing,NYC
+Midtown,NYC
+Soho,NYC
+Roosevelt Island,NYC
+Soundview,NYC
+Crown Heights,NYC
+Gowanus,NYC
+Boerum Hill,NYC
+Greenwood Heights,NYC
+Chinatown,NYC
+Sunnyside,NYC
+Windsor Terrace,NYC
+Sheepshead Bay,NYC
+Clinton Hill,NYC
+Westerleigh,NYC
+Ridgewood,NYC
+Battery Park City,NYC
+The Rockaways,NYC
+Downtown Brooklyn,NYC
+Midwood,NYC
+Fort Greene,NYC
+Flatiron District,NYC
+Bay Ridge,NYC
+Inwood,NYC
+Kips Bay,NYC
+Eastchester,NYC
+Long Island City,NYC
+Hamilton Heights,NYC
+Carroll Gardens,NYC
+Rego Park,NYC
+Bayside,NYC
+Mott Haven,NYC
+Jackson Heights,NYC
+Hudson Square,NYC
+Marine Park,NYC
+Little Italy,NYC
+Fort Wadsworth,NYC
+Bensonhurst,NYC
+South Street Seaport,NYC
+East New York,NYC
+Union Square,NYC
+Castleton Corners,NYC
+Wakefield,NYC
+Ozone Park,NYC
+Noho,NYC
+Canarsie,NYC
+Columbia Street Waterfront,NYC
+Maspeth,NYC
+Fordham,NYC
+St. George,NYC
+Stapleton,NYC
+Brooklyn Navy Yard,NYC
+Nolita,NYC
+University Heights,NYC
+Times Square/Theatre District,NYC
+Kensington,NYC
+Ditmars / Steinway,NYC
+Mount Eden,NYC
+Flatlands,NYC
+Red Hook,NYC
+Claremont,NYC
+Brighton Beach,NYC
+Woodhaven,NYC
+Civic Center,NYC
+Hunts Point,NYC
+Kew Garden Hills,NYC
+Highbridge,NYC
+Meatpacking District,NYC
+South Ozone Park,NYC
+Middle Village,NYC
+Rosebank,NYC
+Riverdale,NYC
+Oakwood,NYC
+West Brighton,NYC
+Queens,NYC
+Woodside,NYC
+Concord,NYC
+Manhattan Beach,NYC
+East Elmhurst,NYC
+Concourse,NYC
+Dyker Heights,NYC
+Throgs Neck,NYC
+Richmond Hill,NYC
+Tremont,NYC
+Bergen Beach,NYC
+Elmhurst,NYC
+Kingsbridge Heights,NYC
+Van Nest,NYC
+City Island,NYC
+Coney Island,NYC
+Kingsbridge,NYC
+Marble Hill,NYC
+Corona,NYC
+Emerson Hill,NYC
+Morris Heights,NYC
+Baychester,NYC
+Parkchester,NYC
+Whitestone,NYC
+Cobble Hill,NYC
+Bedford Park,NYC
+Pelham Bay,NYC
+Manhattan,NYC
+Concourse Village,NYC
+Utopia,NYC
+Longwood,NYC
+Howard Beach,NYC
+Vinegar Hill,NYC
+Morrisania,NYC
+College Point,NYC
+Fresh Meadows,NYC
+Hillcrest,NYC
+Crotona,NYC
+Tompkinsville,NYC
+Borough Park,NYC
+Glendale,NYC
+Park Versailles,NYC
+Midland Beach,NYC
+Williamsbridge,NYC
+Eltingville,NYC
+Meiers Corners,NYC
+Brooklyn,NYC
+DUMBO,NYC
+Bronxdale,NYC
+Woodlawn,NYC
+The Bronx,NYC
+Grasmere,NYC
+Melrose,NYC
+Allerton,NYC
+Norwood,NYC
+Sea Gate,NYC
+Belmont,NYC
+Grymes Hill,NYC
+Morris Park,NYC
+South Beach,NYC
+Co-op City,NYC
+New Brighton,NYC
+Edenwald,NYC
+Annadale,NYC
+Westchester Village,NYC
+Elm Park,NYC
+Spuyten Duyvil,NYC
+Todt Hill,NYC
+Mariners Harbor,NYC
+West Farms,NYC
+Port Morris,NYC
+Castle Hill ,NYC
+New Springville,NYC
+Port Richmond,NYC
+Randall Manor,NYC
+nan,NYC
+Bath Beach,NYC
+Dongan Hills,NYC
+Huguenot,NYC
+Great Kills,NYC
+Arrochar,NYC
+Mill Basin,NYC
+Graniteville,NYC
+Willowbrook,NYC
+Tottenville,NYC
+Lindenwood,NYC
+Clifton,NYC
+Country Club,NYC
+Lighthouse HIll,NYC
+New Dorp Beach,NYC
+Silver Lake,NYC
+Gerritsen Beach,NYC
+Rossville,NYC
+Grant City,NYC
+Lower Haight,SF
+Noe Valley,SF
+Richmond District,SF
+Sunnyside,SF
+Potrero Hill,SF
+Portola,SF
+Western Addition/NOPA,SF
+Mission District,SF
+SoMa,SF
+Bernal Heights,SF
+North Beach,SF
+The Castro,SF
+Alamo Square,SF
+Twin Peaks,SF
+Haight-Ashbury,SF
+Mission Terrace,SF
+Nob Hill,SF
+Telegraph Hill,SF
+Cole Valley,SF
+Russian Hill,SF
+Visitacion Valley,SF
+Hayes Valley,SF
+Bayview,SF
+Pacific Heights,SF
+Parkside,SF
+Crocker Amazon,SF
+Inner Sunset,SF
+Union Square,SF
+Duboce Triangle,SF
+Downtown,SF
+Ingleside,SF
+Civic Center,SF
+South Beach,SF
+Cow Hollow,SF
+Outer Sunset,SF
+Marina,SF
+Tenderloin,SF
+Japantown,SF
+Dogpatch,SF
+Excelsior,SF
+Chinatown,SF
+Forest Hill,SF
+Diamond Heights,SF
+Lakeshore,SF
+Oceanview,SF
+Daly City,SF
+Presidio Heights,SF
+Glen Park,SF
+Financial District,SF
+Mission Bay,SF
+Balboa Terrace,SF
+Fisherman's Wharf,SF
+Sea Cliff,SF
+West Portal,SF
+nan,SF
+Presidio,SF
