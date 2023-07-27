@@ -37,7 +37,6 @@ Humboldt Park,Chicago
 Wicker Park,Chicago
 South Loop/Printers Row,Chicago
 Pilsen,Chicago
-nan,Chicago
 Lakeview,Chicago
 Streeterville,Chicago
 Belmont Cragin,Chicago
@@ -117,7 +116,6 @@ Montclare,Chicago
 Columbia Heights,DC
 U Street Corridor,DC
 Dupont Circle,DC
-nan,DC
 Brookland,DC
 Hillbrook,DC
 Shaw,DC
@@ -231,7 +229,6 @@ Woodland,DC
 "Takoma Park, MD",DC
 Near Northeast,DC
 Chinatown,DC
-nan,LA
 Downtown,LA
 Hermosa Beach,LA
 Torrance,LA
@@ -572,7 +569,6 @@ Castle Hill ,NYC
 New Springville,NYC
 Port Richmond,NYC
 Randall Manor,NYC
-nan,NYC
 Bath Beach,NYC
 Dongan Hills,NYC
 Huguenot,NYC
@@ -645,5 +641,4 @@ Balboa Terrace,SF
 Fisherman's Wharf,SF
 Sea Cliff,SF
 West Portal,SF
-nan,SF
 Presidio,SF
