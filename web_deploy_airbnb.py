@@ -89,7 +89,7 @@ def main():
         # Assign 1 for the selected bed_type and 0 for the others
         bed_type_values = [1 if bed_type == selected_bed_type else 0 for bed_type in bed_types]
 
-        neighbourhood_df = pd.read_csv('neighbourhood_counts.csv')
+        neighbourhood_df = pd.read_csv('neighbourhood_city.csv')
 
         st.subheader("Location data")
         cities = neighbourhood_df['city'].unique()
