@@ -113,58 +113,41 @@ def main():
         cancellation_policy_values = [1 if policy == selected_cancellation_policy else 0 for policy in cancellation_policies]       
         
         data = {
-                'Apartment': property_type_values[0],
-                'House': property_type_values[1],
-                'Condominium': property_type_values[2],
-                'Townhouse': property_type_values[3],
-                'Loft': property_type_values[4],
-                'Guesthouse': property_type_values[5],
-                'Bed & Breakfast': property_type_values[6],
-                'Bungalow': property_type_values[7],
-                'Villa': property_type_values[8],
-                'Other': property_type_values[9],
+                'accommodates': accommodates,
+                'bathrooms': bathrooms,
+                'cleaning_fee': cleaning_fee_value,
+                'host_response_rate': 94, # 0,0064
+                'instant_bookable': instant_bookable_value,
+                'number_of_reviews' : 20, # 0,036
+                'review_scores_rating'  :94, # 0,078
+                'thumbnail_url': 1, # kodu yaz 
+                'bedrooms': bedrooms,
+                'beds': beds,         
 
-                'private_room': room_type_values[0],
-                'entire_room': room_type_values[1],
-                'shared_room': room_type_values[2],
+                'property_type_Apartment': property_type_values[0],
+                'property_type_bed_break': property_type_values[6],
+                'property_type_Bungalow': property_type_values[7],
+                'property_type_Condominium': property_type_values[2],
+                'property_type_Dorm': property_type_values[8],
+                'property_type_Guesthouse': property_type_values[5],
+                'property_type_House': property_type_values[1],
+                'property_type_Loft': property_type_values[4],
+                'property_type_Other': property_type_values[9],
+                'property_type_Townhouse': property_type_values[3],
                 
-                'wireless_internet': amenities_values[0],
-                'Kitchen': amenities_values[1],
-                'Heating': amenities_values[2],
-                'Essentials': amenities_values[3],
-                'Smoke Detector': amenities_values[4],
-                'Air Conditioning': amenities_values[5],
-                'TV': amenities_values[6],
-                'Shampoo': amenities_values[7],
-                'Hangers': amenities_values[8],
-                'Carbon Monoxide Detector': amenities_values[9],
-                'Internet': amenities_values[10],
-                'Laptop Friendly Workspace': amenities_values[11],
-                'Hair Dryer': amenities_values[12],
-                'Washer': amenities_values[13],
-                'Dryer': amenities_values[14],
-                'Iron': amenities_values[15],
-                'Family/Kid Friendly': amenities_values[16],
-                'Fire Extinguisher': amenities_values[17],
-                'First Aid Kit': amenities_values[18],
-                'Cable TV': amenities_values[19],
-                'Free Parking on Premises': amenities_values[20],
-                '24 Hour Check-In': amenities_values[21],
-                'Lock on Bedroom Door': amenities_values[22],
-                'Buzzer Wireless Intercom': amenities_values[23],
+                'cancellation_policy_flexible': cancellation_policy_values[0],
+                'cancellation_policy_moderate': cancellation_policy_values[1],
+                'cancellation_policy_strict': cancellation_policy_values[2],
+                
+                'room_type_entire_home': room_type_values[1],
+                'room_type_private_room': room_type_values[0],
+                'room_type_shared_room': room_type_values[2],
 
-                'Accommodates': accommodates,
-                'Bedrooms': bedrooms,
-                'Bathrooms': bathrooms,
-                'Beds': beds,
-                'Cleaning Fee': cleaning_fee_value,
-                'Instant Bookable': instant_bookable_value,
-
-                'bed_type_Air Bed': bed_type_values[0],
+                'bed_type_Airbed': bed_type_values[0],
                 'bed_type_Couch': bed_type_values[1],
                 'bed_type_Futon': bed_type_values[2],
                 'bed_type_Pull-out Sofa': bed_type_values[3],
-                'bed_type_Real Bed': bed_type_values[4],
+                'bed_type_real_Bed': bed_type_values[4],
 
                 'city_Boston': city_values[0],
                 'city_Chicago': city_values[1],
@@ -173,16 +156,33 @@ def main():
                 'city_NYC': city_values[4],
                 'city_SF': city_values[5],
 
-                'cancellation_policy_flexible': cancellation_policy_values[0],
-                'cancellation_policy_moderate': cancellation_policy_values[1],
-                'cancellation_policy_strict': cancellation_policy_values[2],
-                
-                'neighbourhood_level' : selected_neighbourhood_level,
-                'host_response_rate'    : 94, # 0,0064
-                'number_of_reviews'     : 20, # 0,036
-                'review_scores_rating'  :94, # 0,078
-                'thumbnail_url': 1, # kodu yaz 
 
+                'wireless_internet': amenities_values[0],
+                'Kitchen': amenities_values[1],
+                'Heating': amenities_values[2],
+                'Essentials': amenities_values[3],
+                'smoke_detector': amenities_values[4],
+                'air_conditioning': amenities_values[5],
+                'TV': amenities_values[6],
+                'Shampoo': amenities_values[7],
+                'Hangers': amenities_values[8],
+                'carbon_monoxide_detector': amenities_values[9],
+                'Internet': amenities_values[10],
+                'laptop_friendly_workspace': amenities_values[11],
+                'hair_dryer': amenities_values[12],
+                'Washer': amenities_values[13],
+                'Dryer': amenities_values[14],
+                'Iron': amenities_values[15],
+                'family_kid_friendly': amenities_values[16],
+                'fire_extinguister': amenities_values[17],
+                'first_aid_kit': amenities_values[18],
+                'cable_tv': amenities_values[19],
+                'free_parking_on_premises': amenities_values[20],
+                'alltime_check_in': amenities_values[21],
+                'lock_on_bedroom_door': amenities_values[22],
+                'buzzer_wireless,intercom': amenities_values[23],
+
+                'neighbourhood_level' : selected_neighbourhood_level,
                 }
         
         
