@@ -213,10 +213,9 @@ def main():
             prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
 
             st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
-            st.info(f"Predicted Price: {round(prediction_df['Prediction'][0])}")
+            st.info(f"Predicted Price: ${round(prediction_df['Prediction'][0])}")
 
-            st.subheader("Prediction Result")
-            st.dataframe(prediction_df)
+           
             
                     
         
