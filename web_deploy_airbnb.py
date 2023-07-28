@@ -146,7 +146,7 @@ def main():
                 'bed_type_Airbed': bed_type_values[0],
                 'bed_type_Couch': bed_type_values[1],
                 'bed_type_Futon': bed_type_values[2],
-                'bed_type_Pull-out Sofa': bed_type_values[3],
+                'bed_type_Pull_out_Sofa': bed_type_values[3],
                 'bed_type_real_Bed': bed_type_values[4],
 
                 'city_Boston': city_values[0],
