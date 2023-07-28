@@ -20,7 +20,7 @@ filename = 'finalized_model.sav'
 model = joblib.load(filename)
 
 #Import python scripts
-from preprocessing import preprocess
+# from preprocessing import preprocess
 
 
 def main():
@@ -100,6 +100,8 @@ def main():
 
         # Request user to select neighborhood
         selected_neighbourhood = st.selectbox('Select Neighbourhood:', selected_neighbourhoods)
+        # Get the corresponding neighbourhood-level for the selected neighbourhood
+        selected_neighbourhood_level = neighbourhood_df.loc[neighbourhood_df['neighbourhood'] == selected_neighbourhood, 'neighbourhood-level'].iloc[0]     
         
         # Assign 1 for the selected city and 0 for the others
         city_values = [1 if city == selected_city else 0 for city in cities]
@@ -175,7 +177,7 @@ def main():
                 'cancellation_policy_moderate': cancellation_policy_values[1],
                 'cancellation_policy_strict': cancellation_policy_values[2],
                 
-                'neighbourhood_level' : selected_neighbourhood,
+                'neighbourhood_level' : selected_neighbourhood_level,
                 
 
                 }
@@ -198,35 +200,40 @@ def main():
         if st.button('Predict'):
             
             # Preprocess the input data
-            preprocess_df = preprocess(features_df, 'Online')
+            # preprocess_df = preprocess(features_df, 'Online')
 
             # Make a price prediction
-            prediction = model.predict(preprocess_df)
+            prediction = model.predict(features_df)
+            prediction_df = pd.DataFrame(prediction, columns=["Prediction"])
+
+            st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
+            st.info(f"Predicted Price: {round(prediction_df['Prediction'][0])}")
 
             st.subheader("Prediction Result")
-            st.write("Predicted Price:", prediction) 
+            st.dataframe(prediction_df)
+            
                     
         
 
-    else:
-        st.subheader("Dataset upload")
-        uploaded_file = st.file_uploader("Choose a file")
-        if uploaded_file is not None:
-            data = pd.read_csv(uploaded_file,encoding= 'utf-8')
-            #Get overview of data
-            st.write(data.head())
-            st.markdown("<h3></h3>", unsafe_allow_html=True)
-            #Preprocess inputs
-            preprocess_df = preprocess(data, "Batch")
-            if st.button('Predict'):
-                #Get batch prediction
-                prediction = model.predict(preprocess_df)
-                prediction_df = pd.DataFrame(prediction, columns=["Predictions"])
-                # prediction_df = prediction_df.replace({1:'Yes, the passenger survive.', 0:'No, the passenger died'})
+    # else:
+    #     st.subheader("Dataset upload")
+    #     uploaded_file = st.file_uploader("Choose a file")
+    #     if uploaded_file is not None:
+    #         data = pd.read_csv(uploaded_file,encoding= 'utf-8')
+    #         #Get overview of data
+    #         st.write(data.head())
+    #         st.markdown("<h3></h3>", unsafe_allow_html=True)
+    #         #Preprocess inputs
+    #         preprocess_df = preprocess(data, "Batch")
+    #         if st.button('Predict'):
+    #             #Get batch prediction
+    #             prediction = model.predict(preprocess_df)
+    #             prediction_df = pd.DataFrame(prediction, columns=["Predictions"])
+    #             # prediction_df = prediction_df.replace({1:'Yes, the passenger survive.', 0:'No, the passenger died'})
 
-                st.markdown("<h3></h3>", unsafe_allow_html=True)
-                st.subheader('Prediction')
-                st.write(prediction_df)
+    #             st.markdown("<h3></h3>", unsafe_allow_html=True)
+    #             st.subheader('Prediction')
+    #             st.write(prediction_df)
             
 if __name__ == '__main__':
         main()
