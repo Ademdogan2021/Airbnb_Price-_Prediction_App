@@ -207,7 +207,10 @@ def main():
 
             # Make a price prediction
             prediction = model.predict(features_df)
-            prediction_df = pd.DataFrame(prediction, columns=["Prediction"])
+
+            # Converting log prices to regular prices
+            predicted_prices = np.exp(prediction)
+            prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
 
             st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
             st.info(f"Predicted Price: {round(prediction_df['Prediction'][0])}")
