@@ -178,7 +178,10 @@ def main():
                 'cancellation_policy_strict': cancellation_policy_values[2],
                 
                 'neighbourhood_level' : selected_neighbourhood_level,
-                
+                'host_response_rate'    : 94, # 0,0064
+                'number_of_reviews'     : 20, # 0,036
+                'review_scores_rating'  :94, # 0,078
+                'thumbnail_url': 1, # kodu yaz 
 
                 }
         
