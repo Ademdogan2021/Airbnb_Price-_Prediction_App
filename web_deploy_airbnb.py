@@ -51,14 +51,14 @@ def main():
         # Based on our optimal features selection
 
         st.subheader("Property Type data")
-        property_types = ['Apartment', 'House', 'Condominium', 'Townhouse', 'Loft', 'Guesthouse', 'Bed & Breakfast', 'Bungalow', 'Villa', 'Other']
+        property_types = [['Apartment','Bed & Breakfast','Bungalow', 'Condominium','Dorm','Guesthouse','House', 'Loft','Other','Townhouse']]
         selected_property_type = st.selectbox('Select Property Type:', property_types)
         
         # Assign 1 for the selected house type and 0 for the others
         property_type_values = [1 if property_type == selected_property_type else 0 for property_type in property_types]
 
         st.subheader("Room Type data")
-        room_types = ['Private Room', 'Entire/home Apt.', 'Shared Room']
+        room_types = ['Entire/home Apt.','Private Room',  'Shared Room']
         selected_room_type = st.selectbox('Select Room Type:', room_types)
 
         # Assign 1 for the selected room type and 0 for the others
@@ -79,8 +79,10 @@ def main():
         beds = st.number_input('How many Beds do you have?', min_value=0, max_value=18, value=1)
         cleaning_fee = st.selectbox('Is there an additional cleaning fee for the accommodation?',('No','Yes'))
         instant_bookable = st.selectbox('Is your place have instant bookable?', ('No','Yes'))
+        thumbnail_url = st.selectbox('Would you like to see a picture of the room you will stay in?', ('Yes','No'))
         cleaning_fee_value = 1 if cleaning_fee == 'Yes' else 0
         instant_bookable_value = 1 if instant_bookable == 'Yes' else 0
+        thumbnail_url_value = 1 if thumbnail_url == 'Yes' else 0
 
         st.subheader("Information About Beds") 
         bed_types = ['Air Bed', 'Couch', 'Futon','Pull-out Sofa','Real Bed']
@@ -120,29 +122,29 @@ def main():
                 'instant_bookable': instant_bookable_value,
                 'number_of_reviews' : 20, # 0,036
                 'review_scores_rating'  :94, # 0,078
-                'thumbnail_url': 1, # kodu yaz 
+                'thumbnail_url': thumbnail_url_value, 
                 'bedrooms': bedrooms,
                 'beds': beds,         
 
                 'property_type_Apartment': property_type_values[0],
-                'property_type_bed_break': property_type_values[6],
-                'property_type_Bungalow': property_type_values[7],
-                'property_type_Condominium': property_type_values[2],
-                'property_type_Dorm': property_type_values[8],
+                'property_type_bed_break': property_type_values[1],
+                'property_type_Bungalow': property_type_values[2],
+                'property_type_Condominium': property_type_values[3],
+                'property_type_Dorm': property_type_values[4],
                 'property_type_Guesthouse': property_type_values[5],
-                'property_type_House': property_type_values[1],
-                'property_type_Loft': property_type_values[4],
-                'property_type_Other': property_type_values[9],
-                'property_type_Townhouse': property_type_values[3],
+                'property_type_House': property_type_values[6],
+                'property_type_Loft': property_type_values[7],
+                'property_type_Other': property_type_values[8],
+                'property_type_Townhouse': property_type_values[9],
                 
                 'cancellation_policy_flexible': cancellation_policy_values[0],
                 'cancellation_policy_moderate': cancellation_policy_values[1],
                 'cancellation_policy_strict': cancellation_policy_values[2],
                 
-                'room_type_entire_home': room_type_values[1],
-                'room_type_private_room': room_type_values[0],
+                'room_type_entire_home': room_type_values[0],
+                'room_type_private_room': room_type_values[1],
                 'room_type_shared_room': room_type_values[2],
-
+               
                 'bed_type_Airbed': bed_type_values[0],
                 'bed_type_Couch': bed_type_values[1],
                 'bed_type_Futon': bed_type_values[2],
@@ -219,6 +221,161 @@ def main():
             
                     
         
+    else:
+        st.subheader("Dataset upload")
+        uploaded_file = st.file_uploader("Choose a file")
+        if uploaded_file is not None:
+          df = pd.read_csv(uploaded_file,encoding= 'utf-8', low_memory=False, index_col=False)
+          #Get overview of data
+          # st.write(df_batch.head())
+          st.write(df_batch)
+          st.markdown("<h3></h3>", unsafe_allow_html=True)
+          
+        
+          df.drop(labels = ["id", "description","first_review","host_has_profile_pic","host_identity_verified","host_since",
+                            "zipcode","latitude","longitude","name", "last_review"], axis = 1, inplace = True)
+          
+          data = {
+                #'accommodates': accommodates,
+                #'bathrooms': bathrooms,
+                #'cleaning_fee': cleaning_fee_value,
+                #'host_response_rate': 94, # 0,0064
+                #'instant_bookable': instant_bookable_value,
+                #'number_of_reviews' : 20, # 0,036
+                #'review_scores_rating'  :94, # 0,078
+                #'thumbnail_url': thumbnail_url_value, 
+                #'bedrooms': bedrooms,
+                #'beds': beds,         
+
+                'property_type_Apartment': property_type_values[0],
+                'property_type_bed_break': property_type_values[1],
+                'property_type_Bungalow': property_type_values[2],
+                'property_type_Condominium': property_type_values[3],
+                'property_type_Dorm': property_type_values[4],
+                'property_type_Guesthouse': property_type_values[5],
+                'property_type_House': property_type_values[6],
+                'property_type_Loft': property_type_values[7],
+                'property_type_Other': property_type_values[8],
+                'property_type_Townhouse': property_type_values[9],
+                
+                'cancellation_policy_flexible': cancellation_policy_values[0],
+                'cancellation_policy_moderate': cancellation_policy_values[1],
+                'cancellation_policy_strict': cancellation_policy_values[2],
+                
+                'room_type_entire_home': room_type_values[0],
+                'room_type_private_room': room_type_values[1],
+                'room_type_shared_room': room_type_values[2],
+               
+                'bed_type_Airbed': bed_type_values[0],
+                'bed_type_Couch': bed_type_values[1],
+                'bed_type_Futon': bed_type_values[2],
+                'bed_type_Pull_out_Sofa': bed_type_values[3],
+                'bed_type_real_Bed': bed_type_values[4],
+
+                'city_Boston': city_values[0],
+                'city_Chicago': city_values[1],
+                'city_DC': city_values[2],
+                'city_LA': city_values[3],
+                'city_NYC': city_values[4],
+                'city_SF': city_values[5],
+
+
+                'wireless_internet': amenities_values[0],
+                'Kitchen': amenities_values[1],
+                'Heating': amenities_values[2],
+                'Essentials': amenities_values[3],
+                'smoke_detector': amenities_values[4],
+                'air_conditioning': amenities_values[5],
+                'TV': amenities_values[6],
+                'Shampoo': amenities_values[7],
+                'Hangers': amenities_values[8],
+                'carbon_monoxide_detector': amenities_values[9],
+                'Internet': amenities_values[10],
+                'laptop_friendly_workspace': amenities_values[11],
+                'hair_dryer': amenities_values[12],
+                'Washer': amenities_values[13],
+                'Dryer': amenities_values[14],
+                'Iron': amenities_values[15],
+                'family_kid_friendly': amenities_values[16],
+                'fire_extinguister': amenities_values[17],
+                'first_aid_kit': amenities_values[18],
+                'cable_tv': amenities_values[19],
+                'free_parking_on_premises': amenities_values[20],
+                'alltime_check_in': amenities_values[21],
+                'lock_on_bedroom_door': amenities_values[22],
+                'buzzer_wireless,intercom': amenities_values[23],
+
+                'neighbourhood_level' : selected_neighbourhood_level,
+                }
+
+          #number_of_reviews - review_scores_rating - bedrooms - beds- accommodates - bathrooms
+          df_batch[['number_of_reviews', 'bedrooms', 'beds', 'review_scores_rating','bathrooms','accommodates']] = df[['number_of_reviews', 'bedrooms', 'beds', 'review_scores_rating','bathrooms','accommodates']]
+
+          #cleaning_fee
+          df_batch['cleaning_fee'] = df['cleaning_fee'].astype(int)
+
+          #host_response_rate
+          df_batch['host_response_rate'] = df['host_response_rate'].str.replace('%', '').astype(int)
+
+          #instant_bookable
+          df_batch['instant_bookable'] = df['instant_bookable'].map({'t': 1, 'f': 0})
+
+          #thumbnail_url 
+          df_batch['thumbnail_url'] = df['thumbnail_url'].notna().astype(int)
+
+          #property_types
+          # 'property_type_Apartment', 'property_type_bed_break', 'property_type_Bungalow', 'property_type_Condominium',
+          #  'property_type_Dorm', 'property_type_Guesthouse', 'property_type_House', 'property_type_Loft',
+          #  'property_type_Other', 'property_type_Townhouse'
+          property_types_batch = ['Apartment', 'House', 'Condominium', 'Townhouse', 'Loft', 'Guesthouse', 'Bed & Breakfast', 'Bungalow', 'Villa', 'Other']
+          selected_property_type = st.selectbox('Select Property Type:', property_types)
+
+
+          df['neighbourhood'] = df.apply(lambda row: df.loc[(df['city'] == row['city']) & (df['Zipcode'] == row['Zipcode']), 'neighbourhood'].values[0] if pd.isnull(row['neighbourhood']) else row['neighbourhood'], axis=1)
+          #property_type operation
+          df = pd.get_dummies(df, columns=['property_type'])
+          #room_type operation
+          df = pd.get_dummies(df, columns=['room_type'])
+          #amenities operation
+          
+
+          #print(df.head())
+          #cleaning_fee - host_has_profile_pic - host_identity_verified - instant_bookable 
+          df['cleaning_fee'] = df['cleaning_fee'].replace({False: 0, True: 1})
+          df['host_has_profile_pic'] = df['host_has_profile_pic'].replace({'t': 1, 'f': 0})
+          df['host_identity_verified'] = df['host_identity_verified'].replace({'t': 1, 't': 0})
+          df['instant_bookable'] = df['instant_bookable'].replace({'t': 1, 'f': 0})
+          
+          #cancellation_policy operation
+          df = pd.get_dummies(df, columns=['cancellation_policy'])
+
+          # columns = ['log_price', 'accommodates', 'bathrooms', 'cleaning_fee', 'host_response_rate', 'instant_bookable',
+          #  'number_of_reviews', 'review_scores_rating', 'thumbnail_url', 'bedrooms', 'beds',
+          #  'property_type_Apartment', 'property_type_bed_break', 'property_type_Bungalow', 'property_type_Condominium',
+          #  'property_type_Dorm', 'property_type_Guesthouse', 'property_type_House', 'property_type_Loft',
+          #  'property_type_Other', 'property_type_Townhouse','cancellation_policy_flexible', 'cancellation_policy_moderate',
+          #   'cancellation_policy_strict','room_type_entire_home', 'room_type_private_room', 'room_type_shared_room',
+          #  'bed_type_Airbed', 'bed_type_Couch', 'bed_type_Futon', 'bed_type_Pull_out_Sofa', 'bed_type_real_Bed',
+          #  'city_Boston', 'city_Chicago', 'city_DC', 'city_LA', 'city_NYC', 'city_SF','wireless_internet', 'Kitchen', 'Heating',
+          #  'Essentials', 'smoke_detector', 'air_conditioning', 'TV', 'Shampoo', 'Hangers', 'carbon_monoxide_detector', 'Internet',
+          #  'laptop_friendly_workspace','hair_dryer', 'Washer', 'Dryer', 'Iron', 'family_kid_friendly', 'fire_extinguisher',
+          #  'first_aid_kit','cable_tv', 'free_parking_on_premises', 'alltime_check_in', 'lock_on_bedroom_door', 'buzzer_wireless_intercom',
+          #  'neighbourhood_level']
+
+          # df_batch = pd.DataFrame(columns=columns)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # else:
     #     st.subheader("Dataset upload")
