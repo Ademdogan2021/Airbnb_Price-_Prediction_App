@@ -409,6 +409,27 @@ def main():
           #bedrooms column will not be processed.
           
           #beds column will not be processed.
+          column_names = [
+                'accommodates', 'bathrooms', 'cleaning_fee', 'host_response_rate',
+                'instant_bookable', 'number_of_reviews', 'review_scores_rating', 'thumbnail_url',
+                'bedrooms', 'beds', 'property_type_Apartment', 'property_type_bed_break',
+                'property_type_Bungalow', 'property_type_Condominium', 'property_type_Dorm',
+                'property_type_Guesthouse', 'property_type_House', 'property_type_Loft',
+                'property_type_Other', 'property_type_Townhouse', 'cancellation_policy_flexible',
+                'cancellation_policy_moderate', 'cancellation_policy_strict', 'room_type_entire_home',
+                'room_type_private_room', 'room_type_shared_room', 'bed_type_Airbed', 'bed_type_Couch',
+                'bed_type_Futon', 'bed_type_Pull_out_Sofa', 'bed_type_real_Bed', 'city_Boston',
+                'city_Chicago', 'city_DC', 'city_LA', 'city_NYC', 'city_SF', 'wireless_internet',
+                'Kitchen', 'Heating', 'Essentials', 'smoke_detector', 'air_conditioning', 'TV',
+                'Shampoo', 'Hangers', 'carbon_monoxide_detector', 'Internet', 'laptop_friendly_workspace',
+                'hair_dryer', 'Washer', 'Dryer', 'Iron', 'family_kid_friendly', 'fire_extinguister',
+                'first_aid_kit', 'cable_tv', 'free_parking_on_premises', 'alltime_check_in',
+                'lock_on_bedroom_door', 'buzzer_wireless,intercom', 'neighbourhood_level'
+                ]
+
+# Tüm sütunları döngü ile integer veri türüne dönüştürüyoruz
+          for col in column_names:
+                    df[col] = df[col].astype(int)
           data = {
                 'accommodates': df['accommodates'],
                 'bathrooms': df['bathrooms'],
@@ -484,9 +505,9 @@ def main():
                 }
           features_df = pd.DataFrame.from_dict([data])
           st.markdown("<h3></h3>", unsafe_allow_html=True)
-          st.write('Overview of input is shown below')
-          st.markdown("<h3></h3>", unsafe_allow_html=True)
-          st.dataframe(features_df)
+        #   st.write('Overview of input is shown below')
+        #   st.markdown("<h3></h3>", unsafe_allow_html=True)
+        #   st.dataframe(features_df)
           
 
    
