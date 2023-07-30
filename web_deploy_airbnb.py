@@ -520,9 +520,26 @@ def main():
               predicted_prices = np.exp(prediction)
               prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
 
+              # st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
+              # st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
+
+              # Converting log prices to regular prices
+              predicted_prices = np.exp(prediction)
+              prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
+
+              # Add the "Prediction" column to the original DataFrame
+              df_with_predictions = pd.concat([df, prediction_df], axis=1)
+
               st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
               st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
-              #Get batch prediction
+
+              # Show the updated DataFrame with the "Prediction" column
+              st.write("Updated DataFrame:")
+              st.write(df_with_predictions)
+
+              # Show the original DataFrame with the "Prediction" column
+              st.markdown("<h3>Original Dataset (with Prediction column):</h3>", unsafe_allow_html=True)
+              st.write(df_with_predictions)
 
             
             
