@@ -503,7 +503,8 @@ def main():
                 'neighbourhood_level' : df['neighbourhood_level'],
                 
                 }
-          features_df = pd.DataFrame.from_dict([data])
+          features_df = pd.DataFrame(data)
+          #features_df = pd.DataFrame.from_dict([data])
           st.markdown("<h3></h3>", unsafe_allow_html=True)
         #   st.write('Overview of input is shown below')
         #   st.markdown("<h3></h3>", unsafe_allow_html=True)
