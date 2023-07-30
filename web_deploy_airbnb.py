@@ -521,7 +521,10 @@ def main():
               prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
 
               st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
-              st.info(f"Predicted Price: ${round(prediction_df['Prediction'][0])}")
+              st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
+              #Get batch prediction
+
+            
             
 if __name__ == '__main__':
         main()
