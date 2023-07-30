@@ -12,15 +12,10 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-
-
 #load the model from disk
 import joblib
 filename = 'finalized_model.sav'
 model = joblib.load(filename)
-
-#Import python scripts
-# from preprocessing import preprocess
 
 
 def main():
@@ -118,10 +113,10 @@ def main():
                 'accommodates': accommodates,
                 'bathrooms': bathrooms,
                 'cleaning_fee': cleaning_fee_value,
-                'host_response_rate': 94, # 0,0064
+                'host_response_rate': 94, # corr=0,0064, fill mean
                 'instant_bookable': instant_bookable_value,
-                'number_of_reviews' : 20, # 0,036
-                'review_scores_rating'  :94, # 0,078
+                'number_of_reviews' : 20, # corr=0,036, fill mean
+                'review_scores_rating'  :94, #corr=0,078, fill mean
                 'thumbnail_url': thumbnail_url_value, 
                 'bedrooms': bedrooms,
                 'beds': beds,         
@@ -194,19 +189,8 @@ def main():
         st.markdown("<h3></h3>", unsafe_allow_html=True)
         st.dataframe(features_df)
 
-
-        #Preprocess inputs
-        # preprocess_df = preprocess(features_df, 'Online')
-
-        # prediction = model.predict(preprocess_df)
-        
-     
-
         if st.button('Predict'):
             
-            # Preprocess the input data
-            # preprocess_df = preprocess(features_df, 'Online')
-
             # Make a price prediction
             prediction = model.predict(features_df)
 
@@ -227,8 +211,8 @@ def main():
         if uploaded_file is not None:
           df_original = pd.read_csv(uploaded_file,encoding= 'utf-8', low_memory=False, index_col=False)
           df = df_original.copy()
+
           #Get overview of data
-          # st.write(df_batch.head())
           st.write(df.head())
           st.markdown("<h3></h3>", unsafe_allow_html=True)
           
@@ -298,6 +282,7 @@ def main():
 
           df = df.reindex(columns=df.columns.tolist() + new_columns)
           property_types = ['Apartment','Bed & Breakfast','Bungalow', 'Condominium','Dorm','Guesthouse','House', 'Loft','Townhouse']
+
           #Check the values for each row.
           df['property_type_Apartment'] = df['property_type'].apply(lambda x: 1 if x == 'Apartment' else 0)
           df['property_type_bed_break'] = df['property_type'].apply(lambda x: 1 if x == 'Bed & Breakfast' else 0)
@@ -397,7 +382,7 @@ def main():
               else:  # If no result, insert null               
                   neighbourhood_levels.append(1)
 
-           # Add "neighborhood_level" values to df
+          # Add "neighborhood_level" values to df
           df["neighbourhood_level"] = neighbourhood_levels
 
           #number_of_reviews column will not be processed.
@@ -428,7 +413,7 @@ def main():
                 'lock_on_bedroom_door', 'buzzer_wireless,intercom', 'neighbourhood_level'
                 ]
 
-# Tüm sütunları döngü ile integer veri türüne dönüştürüyoruz
+          # Convert all columns to integer data type
           for col in column_names:
                     df[col] = df[col].astype(int)
           data = {
@@ -505,44 +490,13 @@ def main():
                 
                 }
           features_df = pd.DataFrame(data)
-          #features_df = pd.DataFrame.from_dict([data])
           st.markdown("<h3></h3>", unsafe_allow_html=True)
-        #   st.write('Overview of input is shown below')
-        #   st.markdown("<h3></h3>", unsafe_allow_html=True)
-        #   st.dataframe(features_df)
-          
-
    
           if st.button('Predict'):
-              
-              #prediction = model.predict(features_df)
-
-              # Converting log prices to regular prices
+             
               df_original["Prediction_$"] = np.exp(model.predict(features_df))
               st.dataframe(df_original)
               
-              # predicted_prices = np.exp(prediction)           
-              # prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
-
-              # st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
-              # st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
-
-              
-              # Add the "Prediction" column to the original DataFrame
-              # df_with_predictions = pd.concat([df, prediction_df], axis=1)
-
-              # st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
-              # st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
-
-              # # Show the updated DataFrame with the "Prediction" column
-              # st.write("Updated DataFrame:")
-              # st.write(df_with_predictions)
-
-              # # Show the original DataFrame with the "Prediction" column
-              # st.markdown("<h3>Original Dataset (with Prediction column):</h3>", unsafe_allow_html=True)
-              # st.write(df_with_predictions)
-
-            
             
 if __name__ == '__main__':
         main()
