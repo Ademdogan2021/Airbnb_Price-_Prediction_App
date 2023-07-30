@@ -518,7 +518,7 @@ def main():
               #prediction = model.predict(features_df)
 
               # Converting log prices to regular prices
-              df_original["Prediction"] = np.exp(model.predict(features_df))
+              df_original["Prediction_$"] = np.exp(model.predict(features_df))
               st.dataframe(df_original)
               
               # predicted_prices = np.exp(prediction)           
