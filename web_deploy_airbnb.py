@@ -225,10 +225,11 @@ def main():
         st.subheader("Dataset upload")
         uploaded_file = st.file_uploader("Choose a file")
         if uploaded_file is not None:
-          df = pd.read_csv(uploaded_file,encoding= 'utf-8', low_memory=False, index_col=False)
+          df_original = pd.read_csv(uploaded_file,encoding= 'utf-8', low_memory=False, index_col=False)
+          df = df_original.copy()
           #Get overview of data
           # st.write(df_batch.head())
-          st.write(df.head(5))
+          st.write(df.head())
           st.markdown("<h3></h3>", unsafe_allow_html=True)
           
         
@@ -514,32 +515,32 @@ def main():
    
           if st.button('Predict'):
               
-              prediction = model.predict(features_df)
+              #prediction = model.predict(features_df)
 
               # Converting log prices to regular prices
-              predicted_prices = np.exp(prediction)
-              prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
+              df_original["Prediction"] = np.exp(model.predict(features_df))
+              st.dataframe(df_original)
+              
+              # predicted_prices = np.exp(prediction)           
+              # prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
 
               # st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
               # st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
 
-              # Converting log prices to regular prices
-              predicted_prices = np.exp(prediction)
-              prediction_df = pd.DataFrame(predicted_prices, columns=["Prediction"])
-
+              
               # Add the "Prediction" column to the original DataFrame
-              df_with_predictions = pd.concat([df, prediction_df], axis=1)
+              # df_with_predictions = pd.concat([df, prediction_df], axis=1)
 
-              st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
-              st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
+              # st.markdown("<h3>Prediction Result:</h3>", unsafe_allow_html=True)
+              # st.info(f"Predicted Price: ${round(prediction_df['Prediction'])}")
 
-              # Show the updated DataFrame with the "Prediction" column
-              st.write("Updated DataFrame:")
-              st.write(df_with_predictions)
+              # # Show the updated DataFrame with the "Prediction" column
+              # st.write("Updated DataFrame:")
+              # st.write(df_with_predictions)
 
-              # Show the original DataFrame with the "Prediction" column
-              st.markdown("<h3>Original Dataset (with Prediction column):</h3>", unsafe_allow_html=True)
-              st.write(df_with_predictions)
+              # # Show the original DataFrame with the "Prediction" column
+              # st.markdown("<h3>Original Dataset (with Prediction column):</h3>", unsafe_allow_html=True)
+              # st.write(df_with_predictions)
 
             
             
