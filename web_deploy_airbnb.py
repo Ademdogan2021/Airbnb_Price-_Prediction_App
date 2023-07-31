@@ -179,7 +179,7 @@ def main():
                 'lock_on_bedroom_door': amenities_values[22],
                 'buzzer_wireless,intercom': amenities_values[23],
 
-                'neighbourhood_level' : selected_neighbourhood_level,
+                'neighbourhood-level' : selected_neighbourhood_level,
                 }
         
         
@@ -383,7 +383,7 @@ def main():
                   neighbourhood_levels.append(1)
 
           # Add "neighborhood_level" values to df
-          df["neighbourhood_level"] = neighbourhood_levels
+          df["neighbourhood-level"] = neighbourhood_levels
 
           #number_of_reviews column will not be processed.
 
