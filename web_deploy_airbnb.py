@@ -86,7 +86,7 @@ def main():
         # Assign 1 for the selected bed_type and 0 for the others
         bed_type_values = [1 if bed_type == selected_bed_type else 0 for bed_type in bed_types]
 
-        neighbourhood_df = pd.read_csv('neighbourhood_city.csv')
+        neighbourhood_df = pd.read_csv('neighbourhood_city_son.csv')
 
         st.subheader("Location data")
         cities = neighbourhood_df['city'].unique()
@@ -369,7 +369,7 @@ def main():
           df['instant_bookable'] = df['instant_bookable'].map({'t': 1, 'f': 0})
 
           #neighbourhood & neighbourhood_level
-          neighbourhood_city_df = pd.read_csv('neighbourhood_city.csv')
+          neighbourhood_city_df = pd.read_csv('neighbourhood_city_son.csv')
           neighbourhood_levels = []
 
           for neighbourhood in df["neighbourhood"]:
