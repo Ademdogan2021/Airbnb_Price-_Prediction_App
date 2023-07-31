@@ -179,7 +179,7 @@ def main():
                 'lock_on_bedroom_door': amenities_values[22],
                 'buzzer_wireless,intercom': amenities_values[23],
 
-                'neighbourhood-level' : selected_neighbourhood_level,
+                'neighbourhood_level' : selected_neighbourhood_level,
                 }
         
         
