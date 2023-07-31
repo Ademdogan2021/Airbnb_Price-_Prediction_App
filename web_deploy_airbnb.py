@@ -218,8 +218,7 @@ def main():
           df_original.fillna(0, inplace=True)
 
           # Sonsuz değerleri uygun bir sayı ile değiştirme
-          df.replace([np.inf, -np.inf], np.nan, inplace=True)
-          df.fillna(0, inplace=True)
+          
         
           df.drop(labels = ["id", "description","first_review","host_has_profile_pic","host_identity_verified","host_since",
                             "zipcode","latitude","longitude","name", "last_review"], axis = 1, inplace = True)
@@ -416,7 +415,8 @@ def main():
                 'first_aid_kit', 'cable_tv', 'free_parking_on_premises', 'alltime_check_in',
                 'lock_on_bedroom_door', 'buzzer_wireless,intercom', 'neighbourhood_level'
                 ]
-
+          df.replace([np.inf, -np.inf], np.nan, inplace=True)
+          df.fillna(0, inplace=True)
           # Convert all columns to integer data type
           for col in column_names:
                     df[col] = df[col].astype(int)
