@@ -41,7 +41,7 @@ def main():
     st.sidebar.info('This app uses Gradient Boosting Model (GBM)')
     #st.sidebar.image(image1)
     
-    if add_selectbox == "Online":
+    if (add_selectbox == "Online"):
         st.info("Input data below")
         # Based on our optimal features selection
 
@@ -205,7 +205,7 @@ def main():
             
                     
         
-    else:
+    elif (add_selectbox == "Batch"):
         st.subheader("Dataset upload")
         uploaded_file = st.file_uploader("Choose a file")
         if uploaded_file is not None:
@@ -497,6 +497,8 @@ def main():
               df_original["Prediction_$"] = np.exp(model.predict(features_df))
               st.dataframe(df_original)
               
-            
+    else:
+      print("Incorrect operational options") 
+              
 if __name__ == '__main__':
         main()
