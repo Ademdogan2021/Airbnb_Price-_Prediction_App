@@ -215,7 +215,11 @@ def main():
           #Get overview of data
           st.write(df.head())
           st.markdown("<h3></h3>", unsafe_allow_html=True)
-          
+          df_original.fillna(0, inplace=True)
+
+          # Sonsuz değerleri uygun bir sayı ile değiştirme
+          df_original.replace([np.inf, -np.inf], np.nan, inplace=True)
+          df_original.fillna(0, inplace=True)
         
           df.drop(labels = ["id", "description","first_review","host_has_profile_pic","host_identity_verified","host_since",
                             "zipcode","latitude","longitude","name", "last_review"], axis = 1, inplace = True)
