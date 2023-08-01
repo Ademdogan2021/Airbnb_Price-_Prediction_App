@@ -1,644 +1,644 @@
-city,neighbourhood,neighbourhood-level
-Boston,Allston-Brighton,3
-Boston,Back Bay,3
-Boston,Beacon Hill,3
-Boston,Brookline,2
-Boston,Cambridge,1
-Boston,Charlestown,3
-Boston,Chestnut Hill,3
-Boston,Chinatown,2
-Boston,Coolidge Corner,4
-Boston,Dorchester,3
-Boston,Downtown,3
-Boston,Downtown Crossing,3
-Boston,East Boston,3
-Boston,Fenway/Kenmore,3
-Boston,Financial District,3
-Boston,Government Center,4
-Boston,Harvard Square,4
-Boston,Hyde Park,2
-Boston,Jamaica Plain,3
-Boston,Leather District,3
-Boston,Mattapan,3
-Boston,Mission Hill,3
-Boston,Newton,4
-Boston,North End,3
-Boston,Roslindale,3
-Boston,Roxbury,3
-Boston,Somerville,3
-Boston,South Boston,3
-Boston,South End,3
-Boston,Theater District,3
-Boston,Watertown,4
-Boston,West End,3
-Boston,West Roxbury,3
-Boston,Winthrop,4
-Chicago,Albany Park,2
-Chicago,Andersonville,3
-Chicago,Archer Heights,2
-Chicago,Armour Square,2
-Chicago,Ashburn,4
-Chicago,Auburn Gresham,4
-Chicago,Austin,2
-Chicago,Avondale,2
-Chicago,Back of the Yards,2
-Chicago,Belmont Cragin,2
-Chicago,Beverly,3
-Chicago,Boystown,3
-Chicago,Bridgeport,2
-Chicago,Brighton Park,2
-Chicago,Bronzeville,3
-Chicago,Bucktown,2
-Chicago,Chatham,2
-Chicago,Chinatown,2
-Chicago,Clearing,4
-Chicago,Dunning,3
-Chicago,Edgewater,3
-Chicago,Edison Park,2
-Chicago,Englewood,1
-Chicago,Galewood,1
-Chicago,Garfield Park,2
-Chicago,Garfield Ridge,2
-Chicago,Gold Coast,3
-Chicago,Grand Crossing,2
-Chicago,Hermosa,2
-Chicago,Humboldt Park,2
-Chicago,Hyde Park,3
-Chicago,Irving Park,2
-Chicago,Jefferson Park,2
-Chicago,Kenwood,3
-Chicago,Lakeview,3
-Chicago,Lincoln Park,3
-Chicago,Lincoln Square,3
-Chicago,Little Italy/UIC,2
-Chicago,Little Village,2
-Chicago,Logan Square,2
-Chicago,Loop,3
-Chicago,Magnificent Mile,1
-Chicago,McKinley Park,2
-Chicago,Montclare,1
-Chicago,Morgan Park,2
-Chicago,Near North Side,3
-Chicago,Near West Side,2
-Chicago,North Center,2
-Chicago,North Lawndale,2
-Chicago,North Park,3
-Chicago,Norwood Park,2
-Chicago,O'Hare,4
-Chicago,Oakland,3
-Chicago,Old Town,2
-Chicago,Pilsen,2
-Chicago,Portage Park,3
-Chicago,Printers Row,4
-Chicago,Pullman,3
-Chicago,River North,3
-Chicago,River West,2
-Chicago,Rogers Park,2
-Chicago,Roscoe Village,2
-Chicago,Roseland,2
-Chicago,South Chicago,1
-Chicago,South Loop/Printers Row,3
-Chicago,South Shore,2
-Chicago,Streeterville,3
-Chicago,Ukrainian Village,3
-Chicago,Uptown,3
-Chicago,Washington Heights,2
-Chicago,Washington Park,2
-Chicago,West Elsdon,1
-Chicago,West Lawn,2
-Chicago,West Loop/Greektown,3
-Chicago,West Ridge,2
-Chicago,West Town,2
-Chicago,West Town/Noble Square,2
-Chicago,Wicker Park,3
-Chicago,Woodlawn,2
-Chicago,Wrigleyville,2
-DC,16th Street Heights,3
-DC,Adams Morgan,3
-DC,American University Park,3
-DC,Anacostia,3
-DC,Arboretum,4
-DC,Barney Circle,3
-DC,Barry Farm,3
-DC,Bellevue,2
-DC,Benning,3
-DC,Benning Heights,2
-DC,Benning Ridge,2
-DC,Berkley,3
-DC,"Bethesda, MD",4
-DC,Bloomingdale,3
-DC,Brentwood,3
-DC,Brightwood,3
-DC,Brookland,3
-DC,Buena Vista,3
-DC,Burleith,3
-DC,Capitol Hill,3
-DC,Carver Langston,3
-DC,Cathedral Heights,3
-DC,Central Northeast/Mahaning Heights,3
-DC,Chevy Chase,3
-DC,"Chevy Chase, MD",1
-DC,"Chillum, MD",1
-DC,Chinatown,4
-DC,Cleveland Park,3
-DC,Colonial Village,4
-DC,Columbia Heights,3
-DC,Congress Heights,4
-DC,Crestwood,2
-DC,Deanwood,2
-DC,Douglass,2
-DC,Downtown/Penn Quarter,3
-DC,Dupont Circle,3
-DC,Dupont Park,2
-DC,East Corner,3
-DC,Eastland Gardens,3
-DC,Eckington,3
-DC,Edgewood,3
-DC,Fairlawn,2
-DC,Foggy Bottom,3
-DC,Forest Hills,3
-DC,Fort Davis,3
-DC,Fort Dupont,2
-DC,Fort Lincoln,2
-DC,Fort Totten,3
-DC,Foxhall,2
-DC,Friendship Heights,3
-DC,Gallaudet,3
-DC,Garfield Heights,2
-DC,Gateway,2
-DC,Georgetown,3
-DC,Glover Park,3
-DC,Good Hope,2
-DC,Greenway,3
-DC,"Hilcrest Heights/Marlow Heights, MD",3
-DC,Hillbrook,3
-DC,Hillcrest,3
-DC,Ivy City,4
-DC,Judiciary Square,3
-DC,Kalorama,3
-DC,Kent,3
-DC,Kingman Park,3
-DC,Lamond Riggs,3
-DC,Langdon,3
-DC,LeDroit Park,3
-DC,Lincoln Heights,2
-DC,Logan Circle,3
-DC,Manor Park,3
-DC,Marshall Heights,3
-DC,Massachusetts Heights,4
-DC,Michigan Park,3
-DC,Mount Pleasant,3
-DC,Mount Vernon Square,3
-DC,"Mt Rainier/Brentwood, MD",3
-DC,Mt. Pleasant,4
-DC,Mt. Vernon Square,1
-DC,Navy Yard,3
-DC,Naylor Gardens,3
-DC,Near Northeast,3
-DC,Near Northeast/H Street Corridor,3
-DC,North Cleveland Park,3
-DC,North Michigan Park,3
-DC,Observatory Circle,1
-DC,Old Soldiers' Home,3
-DC,Palisades,3
-DC,Park View,3
-DC,Petworth,3
-DC,Pleasant Hill,3
-DC,Pleasant Plains,3
-DC,Randle Highlands,2
-DC,River Terrace,2
-DC,Shaw,3
-DC,Shepherd Park,3
-DC,Shipley Terrace,2
-DC,"Silver Spring, MD",2
-DC,Skyland,1
-DC,Southwest Waterfront,3
-DC,Spring Valley,1
-DC,St. Elizabeths,3
-DC,Stronghold,3
-DC,"Suitland-Silver Hill, MD",1
-DC,Takoma,3
-DC,"Takoma Park, MD",2
-DC,Trinidad,3
-DC,Truxton Circle,3
-DC,Twining,2
-DC,U Street Corridor,3
-DC,Washington Highlands,2
-DC,Wesley Heights,3
-DC,West End,3
-DC,Woodland,1
-DC,Woodley Park,3
-DC,Woodridge,3
-LA,Alhambra,2
-LA,Alondra Park,2
-LA,Altadena,3
-LA,Arcadia,2
-LA,Arleta,1
-LA,Artesia,3
-LA,Arts District,3
-LA,Atwater Village,3
-LA,Azusa,2
-LA,Baldwin Hills,3
-LA,Baldwin Park,3
-LA,Bel Air/Beverly Crest,2
-LA,Bell,3
-LA,Bellflower,4
-LA,Beverly Hills,3
-LA,Boyle Heights,2
-LA,Bradbury,3
-LA,Brentwood,3
-LA,Burbank,3
-LA,Cahuenga Pass,3
-LA,Canoga Park,3
-LA,Carson,3
-LA,Cerritos,2
-LA,Chatsworth,3
-LA,Commerce,4
-LA,Compton,3
-LA,Covina,2
-LA,Culver City,3
-LA,Cypress Park,3
-LA,Del Rey,3
-LA,Downey,3
-LA,Downtown,3
-LA,Duarte,2
-LA,Eagle Rock,3
-LA,East Hollywood,3
-LA,East Los Angeles,3
-LA,East San Gabriel,3
-LA,Echo Park,3
-LA,El Monte,2
-LA,El Segundo,3
-LA,El Sereno,3
-LA,Elysian Valley,3
-LA,Encino,3
-LA,Florence-Graham,4
-LA,Gardena,2
-LA,Glassell Park,3
-LA,Glendale,3
-LA,Glendora,2
-LA,Granada Hills North,3
-LA,Harbor City,3
-LA,Harbor Gateway,2
-LA,Hawaiian Gardens,3
-LA,Hawthorne,3
-LA,Hermon,3
-LA,Hermosa Beach,3
-LA,Highland Park,3
-LA,Hollywood,3
-LA,Hollywood Hills,3
-LA,Huntington Park,3
-LA,Inglewood,2
-LA,Irwindale,3
-LA,La Canada Flintridge,3
-LA,La Crescenta-Montrose,3
-LA,La Habra,4
-LA,La Mirada,3
-LA,La Puente,2
-LA,Lake Balboa,3
-LA,Lakewood,3
-LA,Laurel Canyon,2
-LA,Lawndale,3
-LA,Lincoln Heights,2
-LA,Lomita,3
-LA,Long Beach,3
-LA,Los Feliz,3
-LA,Lynwood,3
-LA,Malibu,2
-LA,Manhattan Beach,2
-LA,Mar Vista,3
-LA,Marina Del Rey,3
-LA,Mid-City,3
-LA,Mid-Wilshire,3
-LA,Mission Hills,2
-LA,Monrovia,2
-LA,Montebello,2
-LA,Montecito Heights,3
-LA,Monterey Hills,3
-LA,Monterey Park,2
-LA,Mount Washington,3
-LA,North Hills East,2
-LA,North Hills West,3
-LA,North Hollywood,3
-LA,Northridge,3
-LA,Norwalk,2
-LA,Pacific Palisades,2
-LA,Pacoima,2
-LA,Palms,3
-LA,Palos Verdes,2
-LA,Panorama City,2
-LA,Paramount,2
-LA,Pasadena,3
-LA,Pico Rivera,3
-LA,Porter Ranch,1
-LA,Rancho Palos Verdes,3
-LA,Redondo Beach,3
-LA,Reseda,2
-LA,Rolling Hills,4
-LA,Rolling Hills Estates,2
-LA,Rosemead,3
-LA,San Gabriel,3
-LA,San Marino,3
-LA,San Pedro,3
-LA,Santa Fe Springs,3
-LA,Santa Monica,3
-LA,Sherman Oaks,3
-LA,Sierra Madre,4
-LA,Signal Hill,2
-LA,Silver Lake,3
-LA,Skid Row,3
-LA,South El Monte,2
-LA,South Gate,3
-LA,South LA,2
-LA,South Pasadena,2
-LA,South Robertson,3
-LA,South San Gabriel,4
-LA,South Whittier,2
-LA,Studio City,3
-LA,Sun Valley,3
-LA,Sunland/Tujunga,2
-LA,Sylmar,2
-LA,Tarzana,3
-LA,Temple City,2
-LA,Toluca Lake,3
-LA,Topanga,3
-LA,Torrance,3
-LA,Valley Glen,3
-LA,Valley Village,3
-LA,Van Nuys,3
-LA,Venice,3
-LA,Vernon,4
-LA,Watts,3
-LA,West Adams,3
-LA,West Athens,1
-LA,West Covina,2
-LA,West Hills,3
-LA,West Hollywood,3
-LA,West Los Angeles,3
-LA,West Puente Valley,2
-LA,Westchester/Playa Del Rey,3
-LA,Westlake,3
-LA,Westmont,3
-LA,Westside,3
-LA,Westwood,3
-LA,Whittier,2
-LA,Willowbrook,2
-LA,Wilmington,4
-LA,Winnetka,3
-LA,Woodland Hills/Warner Center,3
-NYC,Allerton,3
-NYC,Alphabet City,3
-NYC,Annadale,4
-NYC,Arrochar,4
-NYC,Astoria,3
-NYC,Bath Beach,3
-NYC,Battery Park City,3
-NYC,Bay Ridge,3
-NYC,Baychester,3
-NYC,Bayside,2
-NYC,Bedford Park,3
-NYC,Bedford-Stuyvesant,3
-NYC,Belmont,3
-NYC,Bensonhurst,3
-NYC,Bergen Beach,3
-NYC,Boerum Hill,3
-NYC,Borough Park,3
-NYC,Brighton Beach,3
-NYC,Bronxdale,3
-NYC,Brooklyn,3
-NYC,Brooklyn Heights,3
-NYC,Brooklyn Navy Yard,3
-NYC,Brownsville,3
-NYC,Bushwick,3
-NYC,Canarsie,3
-NYC,Carroll Gardens,3
-NYC,Castle Hill ,2
-NYC,Castleton Corners,1
-NYC,Chelsea,3
-NYC,Chinatown,3
-NYC,City Island,3
-NYC,Civic Center,3
-NYC,Claremont,3
-NYC,Clifton,4
-NYC,Clinton Hill,3
-NYC,Co-op City,4
-NYC,Cobble Hill,3
-NYC,College Point,2
-NYC,Columbia Street Waterfront,3
-NYC,Concord,2
-NYC,Concourse,3
-NYC,Concourse Village,3
-NYC,Coney Island,3
-NYC,Corona,3
-NYC,Country Club,4
-NYC,Crotona,2
-NYC,Crown Heights,3
-NYC,DUMBO,3
-NYC,Ditmars / Steinway,3
-NYC,Dongan Hills,4
-NYC,Downtown Brooklyn,4
-NYC,Dyker Heights,3
-NYC,East Elmhurst,2
-NYC,East Flatbush,3
-NYC,East Harlem,3
-NYC,East New York,3
-NYC,East Village,3
-NYC,Eastchester,3
-NYC,Edenwald,3
-NYC,Elm Park,3
-NYC,Elmhurst,3
-NYC,Eltingville,2
-NYC,Emerson Hill,1
-NYC,Financial District,3
-NYC,Flatbush,3
-NYC,Flatiron District,3
-NYC,Flatlands,2
-NYC,Flushing,3
-NYC,Fordham,3
-NYC,Forest Hills,3
-NYC,Fort Greene,3
-NYC,Fort Wadsworth,4
-NYC,Fresh Meadows,3
-NYC,Gerritsen Beach,4
-NYC,Glendale,2
-NYC,Gowanus,3
-NYC,Gramercy Park,4
-NYC,Graniteville,1
-NYC,Grant City,4
-NYC,Grasmere,2
-NYC,Gravesend,3
-NYC,Great Kills,2
-NYC,Greenpoint,3
-NYC,Greenwich Village,3
-NYC,Greenwood Heights,3
-NYC,Grymes Hill,3
-NYC,Hamilton Heights,3
-NYC,Harlem,3
-NYC,Hell's Kitchen,3
-NYC,Highbridge,3
-NYC,Hillcrest,3
-NYC,Howard Beach,3
-NYC,Hudson Square,3
-NYC,Huguenot,2
-NYC,Hunts Point,3
-NYC,Inwood,3
-NYC,Jackson Heights,3
-NYC,Jamaica,3
-NYC,Kensington,3
-NYC,Kew Garden Hills,3
-NYC,Kingsbridge,3
-NYC,Kingsbridge Heights,3
-NYC,Kips Bay,3
-NYC,Lefferts Garden,3
-NYC,Lighthouse HIll,4
-NYC,Lindenwood,2
-NYC,Little Italy,3
-NYC,Long Island City,4
-NYC,Longwood,3
-NYC,Lower East Side,3
-NYC,Manhattan,4
-NYC,Manhattan Beach,3
-NYC,Marble Hill,2
-NYC,Marine Park,3
-NYC,Mariners Harbor,2
-NYC,Maspeth,3
-NYC,Meatpacking District,3
-NYC,Meiers Corners,3
-NYC,Melrose,3
-NYC,Middle Village,3
-NYC,Midland Beach,3
-NYC,Midtown,3
-NYC,Midtown East,3
-NYC,Midwood,3
-NYC,Mill Basin,1
-NYC,Morningside Heights,3
-NYC,Morris Heights,3
-NYC,Morris Park,2
-NYC,Morrisania,3
-NYC,Mott Haven,3
-NYC,Mount Eden,2
-NYC,Murray Hill,4
-NYC,New Brighton,2
-NYC,New Dorp Beach,3
-NYC,New Springville,4
-NYC,Noho,3
-NYC,Nolita,3
-NYC,Norwood,3
-NYC,Oakwood,4
-NYC,Ozone Park,3
-NYC,Park Slope,3
-NYC,Park Versailles,2
-NYC,Parkchester,3
-NYC,Pelham Bay,3
-NYC,Port Morris,2
-NYC,Port Richmond,3
-NYC,Prospect Heights,3
-NYC,Queens,3
-NYC,Randall Manor,2
-NYC,Red Hook,3
-NYC,Rego Park,3
-NYC,Richmond Hill,3
-NYC,Ridgewood,3
-NYC,Riverdale,3
-NYC,Roosevelt Island,3
-NYC,Rosebank,3
-NYC,Rossville,1
-NYC,Sea Gate,3
-NYC,Sheepshead Bay,3
-NYC,Silver Lake,4
-NYC,Soho,3
-NYC,Soundview,2
-NYC,South Beach,3
-NYC,South Ozone Park,3
-NYC,South Street Seaport,4
-NYC,Spuyten Duyvil,3
-NYC,St. George,2
-NYC,Stapleton,2
-NYC,Sunnyside,3
-NYC,Sunset Park,3
-NYC,The Bronx,3
-NYC,The Rockaways,3
-NYC,Throgs Neck,3
-NYC,Times Square/Theatre District,3
-NYC,Todt Hill,1
-NYC,Tompkinsville,3
-NYC,Tottenville,2
-NYC,Tremont,2
-NYC,Tribeca,3
-NYC,Union Square,3
-NYC,University Heights,3
-NYC,Upper East Side,4
-NYC,Upper West Side,3
-NYC,Utopia,2
-NYC,Van Nest,2
-NYC,Vinegar Hill,3
-NYC,Wakefield,3
-NYC,Washington Heights,3
-NYC,West Brighton,2
-NYC,West Farms,3
-NYC,West Village,3
-NYC,Westchester Village,4
-NYC,Westerleigh,3
-NYC,Whitestone,3
-NYC,Williamsbridge,2
-NYC,Williamsburg,3
-NYC,Willowbrook,4
-NYC,Windsor Terrace,3
-NYC,Woodhaven,3
-NYC,Woodlawn,4
-NYC,Woodside,3
-SF,Alamo Square,3
-SF,Balboa Terrace,3
-SF,Bayview,3
-SF,Bernal Heights,3
-SF,Chinatown,3
-SF,Civic Center,4
-SF,Cole Valley,3
-SF,Cow Hollow,3
-SF,Crocker Amazon,3
-SF,Daly City,1
-SF,Diamond Heights,3
-SF,Dogpatch,3
-SF,Downtown,4
-SF,Duboce Triangle,3
-SF,Excelsior,3
-SF,Financial District,3
-SF,Fisherman's Wharf,3
-SF,Forest Hill,3
-SF,Glen Park,3
-SF,Haight-Ashbury,3
-SF,Hayes Valley,3
-SF,Ingleside,3
-SF,Inner Sunset,3
-SF,Japantown,3
-SF,Lakeshore,3
-SF,Lower Haight,3
-SF,Marina,3
-SF,Mission Bay,4
-SF,Mission District,3
-SF,Mission Terrace,3
-SF,Nob Hill,3
-SF,Noe Valley,3
-SF,North Beach,3
-SF,Oceanview,3
-SF,Outer Sunset,3
-SF,Pacific Heights,3
-SF,Parkside,3
-SF,Portola,3
-SF,Potrero Hill,3
-SF,Presidio,3
-SF,Presidio Heights,3
-SF,Richmond District,3
-SF,Russian Hill,3
-SF,Sea Cliff,3
-SF,SoMa,3
-SF,South Beach,3
-SF,Sunnyside,3
-SF,Telegraph Hill,3
-SF,Tenderloin,4
-SF,The Castro,3
-SF,Twin Peaks,3
-SF,Union Square,4
-SF,Visitacion Valley,3
-SF,West Portal,3
-SF,Western Addition/NOPA,3
+neighbourhood,city,neighbourhood-level
+Allston-Brighton,Boston,1
+Back Bay,Boston,3
+Beacon Hill,Boston,1
+Brookline,Boston,1
+Cambridge,Boston,2
+Charlestown,Boston,4
+Chestnut Hill,Boston,1
+Chinatown,Boston,1
+Coolidge Corner,Boston,4
+Dorchester,Boston,1
+Downtown,Boston,1
+Downtown Crossing,Boston,3
+East Boston,Boston,3
+Fenway/Kenmore,Boston,4
+Financial District,Boston,4
+Government Center,Boston,4
+Harvard Square,Boston,1
+Hyde Park,Boston,2
+Jamaica Plain,Boston,4
+Leather District,Boston,4
+Mattapan,Boston,3
+Mission Hill,Boston,4
+Newton,Boston,4
+North End,Boston,1
+Roslindale,Boston,4
+Roxbury,Boston,4
+Somerville,Boston,4
+South Boston,Boston,3
+South End,Boston,4
+Theater District,Boston,1
+Watertown,Boston,4
+West End,Boston,3
+West Roxbury,Boston,4
+Winthrop,Boston,4
+Albany Park,Chicago,4
+Andersonville,Chicago,1
+Archer Heights,Chicago,3
+Armour Square,Chicago,4
+Ashburn,Chicago,4
+Auburn Gresham,Chicago,3
+Austin,Chicago,4
+Avondale,Chicago,1
+Back of the Yards,Chicago,3
+Belmont Cragin,Chicago,3
+Beverly,Chicago,4
+Boystown,Chicago,4
+Bridgeport,Chicago,4
+Brighton Park,Chicago,4
+Bronzeville,Chicago,3
+Bucktown,Chicago,4
+Chatham,Chicago,4
+Chinatown,Chicago,3
+Clearing,Chicago,3
+Dunning,Chicago,4
+Edgewater,Chicago,1
+Edison Park,Chicago,1
+Englewood,Chicago,1
+Galewood,Chicago,4
+Garfield Park,Chicago,4
+Garfield Ridge,Chicago,4
+Gold Coast,Chicago,4
+Grand Crossing,Chicago,2
+Hermosa,Chicago,4
+Humboldt Park,Chicago,1
+Hyde Park,Chicago,2
+Irving Park,Chicago,3
+Jefferson Park,Chicago,4
+Kenwood,Chicago,4
+Lakeview,Chicago,3
+Lincoln Park,Chicago,4
+Lincoln Square,Chicago,3
+Little Italy/UIC,Chicago,1
+Little Village,Chicago,3
+Logan Square,Chicago,1
+Loop,Chicago,4
+Magnificent Mile,Chicago,4
+McKinley Park,Chicago,1
+Montclare,Chicago,4
+Morgan Park,Chicago,4
+Near North Side,Chicago,4
+Near West Side,Chicago,3
+North Center,Chicago,1
+North Lawndale,Chicago,4
+North Park,Chicago,4
+Norwood Park,Chicago,1
+Oakland,Chicago,4
+O'Hare,Chicago,4
+Old Town,Chicago,4
+Pilsen,Chicago,4
+Portage Park,Chicago,4
+Printers Row,Chicago,4
+Pullman,Chicago,3
+River North,Chicago,3
+River West,Chicago,4
+Rogers Park,Chicago,4
+Roscoe Village,Chicago,4
+Roseland,Chicago,1
+South Chicago,Chicago,3
+South Loop/Printers Row,Chicago,1
+South Shore,Chicago,2
+Streeterville,Chicago,4
+Ukrainian Village,Chicago,2
+Uptown,Chicago,1
+Washington Heights,Chicago,1
+Washington Park,Chicago,4
+West Elsdon,Chicago,4
+West Lawn,Chicago,1
+West Loop/Greektown,Chicago,1
+West Ridge,Chicago,1
+West Town,Chicago,3
+West Town/Noble Square,Chicago,4
+Wicker Park,Chicago,3
+Woodlawn,Chicago,4
+Wrigleyville,Chicago,4
+16th Street Heights,DC,4
+Adams Morgan,DC,2
+American University Park,DC,4
+Anacostia,DC,2
+Arboretum,DC,1
+Barney Circle,DC,4
+Barry Farm,DC,3
+Bellevue,DC,1
+Benning,DC,4
+Benning Heights,DC,1
+Benning Ridge,DC,4
+Berkley,DC,1
+"Bethesda, MD",DC,1
+Bloomingdale,DC,3
+Brentwood,DC,4
+Brightwood,DC,4
+Brookland,DC,3
+Buena Vista,DC,2
+Burleith,DC,4
+Capitol Hill,DC,4
+Carver Langston,DC,1
+Cathedral Heights,DC,3
+Central Northeast/Mahaning Heights,DC,1
+Chevy Chase,DC,1
+"Chevy Chase, MD",DC,1
+"Chillum, MD",DC,4
+Chinatown,DC,2
+Cleveland Park,DC,4
+Colonial Village,DC,4
+Columbia Heights,DC,4
+Congress Heights,DC,3
+Crestwood,DC,4
+Deanwood,DC,1
+Douglass,DC,3
+Downtown/Penn Quarter,DC,1
+Dupont Circle,DC,4
+Dupont Park,DC,1
+East Corner,DC,4
+Eastland Gardens,DC,1
+Eckington,DC,3
+Edgewood,DC,4
+Fairlawn,DC,3
+Foggy Bottom,DC,4
+Forest Hills,DC,1
+Fort Davis,DC,4
+Fort Dupont,DC,3
+Fort Lincoln,DC,1
+Fort Totten,DC,3
+Foxhall,DC,4
+Friendship Heights,DC,1
+Gallaudet,DC,1
+Garfield Heights,DC,4
+Gateway,DC,1
+Georgetown,DC,4
+Glover Park,DC,4
+Good Hope,DC,4
+Greenway,DC,4
+"Hilcrest Heights/Marlow Heights, MD",DC,4
+Hillbrook,DC,1
+Hillcrest,DC,4
+Ivy City,DC,4
+Judiciary Square,DC,4
+Kalorama,DC,1
+Kent,DC,1
+Kingman Park,DC,4
+Lamond Riggs,DC,4
+Langdon,DC,1
+LeDroit Park,DC,4
+Lincoln Heights,DC,4
+Logan Circle,DC,4
+Manor Park,DC,4
+Marshall Heights,DC,2
+Massachusetts Heights,DC,3
+Michigan Park,DC,4
+Mount Pleasant,DC,1
+Mount Vernon Square,DC,4
+"Mt Rainier/Brentwood, MD",DC,1
+Mt. Pleasant,DC,1
+Mt. Vernon Square,DC,1
+Navy Yard,DC,3
+Naylor Gardens,DC,4
+Near Northeast,DC,3
+Near Northeast/H Street Corridor,DC,4
+North Cleveland Park,DC,4
+North Michigan Park,DC,4
+Observatory Circle,DC,4
+Old Soldiers' Home,DC,4
+Palisades,DC,4
+Park View,DC,4
+Petworth,DC,4
+Pleasant Hill,DC,3
+Pleasant Plains,DC,1
+Randle Highlands,DC,4
+River Terrace,DC,1
+Shaw,DC,1
+Shepherd Park,DC,1
+Shipley Terrace,DC,3
+"Silver Spring, MD",DC,1
+Skyland,DC,4
+Southwest Waterfront,DC,4
+Spring Valley,DC,1
+St. Elizabeths,DC,4
+Stronghold,DC,4
+"Suitland-Silver Hill, MD",DC,4
+Takoma,DC,4
+"Takoma Park, MD",DC,4
+Trinidad,DC,4
+Truxton Circle,DC,4
+Twining,DC,1
+U Street Corridor,DC,4
+Washington Highlands,DC,4
+Wesley Heights,DC,4
+West End,DC,3
+Woodland,DC,4
+Woodley Park,DC,4
+Woodridge,DC,4
+Alhambra,LA,1
+Alondra Park,LA,1
+Altadena,LA,4
+Arcadia,LA,4
+Arleta,LA,4
+Artesia,LA,4
+Arts District,LA,4
+Atwater Village,LA,1
+Azusa,LA,4
+Baldwin Hills,LA,4
+Baldwin Park,LA,2
+Bel Air/Beverly Crest,LA,4
+Bell,LA,4
+Bellflower,LA,3
+Beverly Hills,LA,4
+Boyle Heights,LA,4
+Bradbury,LA,4
+Brentwood,LA,4
+Burbank,LA,4
+Cahuenga Pass,LA,3
+Canoga Park,LA,1
+Carson,LA,2
+Cerritos,LA,1
+Chatsworth,LA,4
+Commerce,LA,1
+Compton,LA,4
+Covina,LA,4
+Culver City,LA,1
+Cypress Park,LA,1
+Del Rey,LA,4
+Downey,LA,4
+Downtown,LA,1
+Duarte,LA,2
+Eagle Rock,LA,4
+East Hollywood,LA,4
+East Los Angeles,LA,3
+East San Gabriel,LA,1
+Echo Park,LA,4
+El Monte,LA,4
+El Segundo,LA,4
+El Sereno,LA,1
+Elysian Valley,LA,2
+Encino,LA,4
+Florence-Graham,LA,1
+Gardena,LA,4
+Glassell Park,LA,4
+Glendale,LA,3
+Glendora,LA,3
+Granada Hills North,LA,1
+Harbor City,LA,2
+Harbor Gateway,LA,4
+Hawaiian Gardens,LA,1
+Hawthorne,LA,2
+Hermon,LA,4
+Hermosa Beach,LA,4
+Highland Park,LA,1
+Hollywood,LA,1
+Hollywood Hills,LA,1
+Huntington Park,LA,3
+Inglewood,LA,1
+Irwindale,LA,1
+La Canada Flintridge,LA,1
+La Crescenta-Montrose,LA,3
+La Habra,LA,1
+La Mirada,LA,4
+La Puente,LA,4
+Lake Balboa,LA,1
+Lakewood,LA,4
+Laurel Canyon,LA,4
+Lawndale,LA,4
+Lincoln Heights,LA,4
+Lomita,LA,4
+Long Beach,LA,4
+Los Feliz,LA,4
+Lynwood,LA,4
+Malibu,LA,3
+Manhattan Beach,LA,4
+Mar Vista,LA,4
+Marina Del Rey,LA,3
+Mid-City,LA,3
+Mid-Wilshire,LA,1
+Mission Hills,LA,2
+Monrovia,LA,1
+Montebello,LA,1
+Montecito Heights,LA,1
+Monterey Hills,LA,4
+Monterey Park,LA,4
+Mount Washington,LA,4
+North Hills East,LA,4
+North Hills West,LA,4
+North Hollywood,LA,4
+Northridge,LA,4
+Norwalk,LA,4
+Pacific Palisades,LA,1
+Pacoima,LA,3
+Palms,LA,4
+Palos Verdes,LA,4
+Panorama City,LA,1
+Paramount,LA,3
+Pasadena,LA,1
+Pico Rivera,LA,1
+Porter Ranch,LA,4
+Rancho Palos Verdes,LA,4
+Redondo Beach,LA,4
+Reseda,LA,1
+Rolling Hills,LA,3
+Rolling Hills Estates,LA,3
+Rosemead,LA,4
+San Gabriel,LA,4
+San Marino,LA,4
+San Pedro,LA,4
+Santa Fe Springs,LA,3
+Santa Monica,LA,4
+Sherman Oaks,LA,4
+Sierra Madre,LA,4
+Signal Hill,LA,4
+Silver Lake,LA,4
+Skid Row,LA,4
+South El Monte,LA,4
+South Gate,LA,1
+South LA,LA,1
+South Pasadena,LA,3
+South Robertson,LA,4
+South San Gabriel,LA,4
+South Whittier,LA,3
+Studio City,LA,1
+Sun Valley,LA,1
+Sunland/Tujunga,LA,4
+Sylmar,LA,4
+Tarzana,LA,1
+Temple City,LA,3
+Toluca Lake,LA,3
+Topanga,LA,1
+Torrance,LA,1
+Valley Glen,LA,4
+Valley Village,LA,3
+Van Nuys,LA,1
+Venice,LA,3
+Vernon,LA,1
+Watts,LA,2
+West Adams,LA,4
+West Athens,LA,1
+West Covina,LA,4
+West Hills,LA,4
+West Hollywood,LA,4
+West Los Angeles,LA,4
+West Puente Valley,LA,1
+Westchester/Playa Del Rey,LA,1
+Westlake,LA,1
+Westmont,LA,1
+Westside,LA,1
+Westwood,LA,1
+Whittier,LA,4
+Willowbrook,LA,4
+Wilmington,LA,4
+Winnetka,LA,4
+Woodland Hills/Warner Center,LA,4
+Allerton,NYC,4
+Alphabet City,NYC,1
+Annadale,NYC,4
+Arrochar,NYC,4
+Astoria,NYC,4
+Bath Beach,NYC,4
+Battery Park City,NYC,4
+Bay Ridge,NYC,4
+Baychester,NYC,3
+Bayside,NYC,1
+Bedford Park,NYC,3
+Bedford-Stuyvesant,NYC,1
+Belmont,NYC,4
+Bensonhurst,NYC,4
+Bergen Beach,NYC,4
+Boerum Hill,NYC,4
+Borough Park,NYC,3
+Brighton Beach,NYC,1
+Bronxdale,NYC,3
+Brooklyn,NYC,1
+Brooklyn Heights,NYC,1
+Brooklyn Navy Yard,NYC,3
+Brownsville,NYC,4
+Bushwick,NYC,4
+Canarsie,NYC,4
+Carroll Gardens,NYC,4
+Castle Hill ,NYC,4
+Castleton Corners,NYC,4
+Chelsea,NYC,3
+Chinatown,NYC,4
+City Island,NYC,4
+Civic Center,NYC,3
+Claremont,NYC,4
+Clifton,NYC,1
+Clinton Hill,NYC,3
+Cobble Hill,NYC,4
+College Point,NYC,1
+Columbia Street Waterfront,NYC,1
+Concord,NYC,4
+Concourse,NYC,3
+Concourse Village,NYC,1
+Coney Island,NYC,4
+Co-op City,NYC,1
+Corona,NYC,4
+Country Club,NYC,4
+Crotona,NYC,1
+Crown Heights,NYC,2
+Ditmars / Steinway,NYC,4
+Dongan Hills,NYC,4
+Downtown Brooklyn,NYC,1
+DUMBO,NYC,4
+Dyker Heights,NYC,1
+East Elmhurst,NYC,1
+East Flatbush,NYC,4
+East Harlem,NYC,1
+East New York,NYC,4
+East Village,NYC,4
+Eastchester,NYC,4
+Edenwald,NYC,4
+Elm Park,NYC,4
+Elmhurst,NYC,4
+Eltingville,NYC,4
+Emerson Hill,NYC,4
+Financial District,NYC,1
+Flatbush,NYC,1
+Flatiron District,NYC,4
+Flatlands,NYC,2
+Flushing,NYC,4
+Fordham,NYC,2
+Forest Hills,NYC,1
+Fort Greene,NYC,1
+Fort Wadsworth,NYC,3
+Fresh Meadows,NYC,1
+Gerritsen Beach,NYC,1
+Glendale,NYC,1
+Gowanus,NYC,1
+Gramercy Park,NYC,1
+Graniteville,NYC,4
+Grant City,NYC,4
+Grasmere,NYC,4
+Gravesend,NYC,4
+Great Kills,NYC,4
+Greenpoint,NYC,4
+Greenwich Village,NYC,3
+Greenwood Heights,NYC,1
+Grymes Hill,NYC,4
+Hamilton Heights,NYC,1
+Harlem,NYC,4
+Hell's Kitchen,NYC,4
+Highbridge,NYC,3
+Hillcrest,NYC,4
+Howard Beach,NYC,4
+Hudson Square,NYC,4
+Huguenot,NYC,4
+Hunts Point,NYC,1
+Inwood,NYC,4
+Jackson Heights,NYC,3
+Jamaica,NYC,1
+Kensington,NYC,2
+Kew Garden Hills,NYC,4
+Kingsbridge,NYC,4
+Kingsbridge Heights,NYC,4
+Kips Bay,NYC,4
+Lefferts Garden,NYC,1
+Lighthouse HIll,NYC,4
+Lindenwood,NYC,1
+Little Italy,NYC,1
+Long Island City,NYC,1
+Longwood,NYC,1
+Lower East Side,NYC,4
+Manhattan,NYC,4
+Manhattan Beach,NYC,1
+Marble Hill,NYC,3
+Marine Park,NYC,3
+Mariners Harbor,NYC,4
+Maspeth,NYC,4
+Meatpacking District,NYC,4
+Meiers Corners,NYC,4
+Melrose,NYC,4
+Middle Village,NYC,3
+Midland Beach,NYC,4
+Midtown,NYC,1
+Midtown East,NYC,4
+Midwood,NYC,3
+Mill Basin,NYC,1
+Morningside Heights,NYC,4
+Morris Heights,NYC,4
+Morris Park,NYC,1
+Morrisania,NYC,2
+Mott Haven,NYC,3
+Mount Eden,NYC,1
+Murray Hill,NYC,4
+New Brighton,NYC,1
+New Dorp Beach,NYC,4
+New Springville,NYC,4
+Noho,NYC,4
+Nolita,NYC,4
+Norwood,NYC,1
+Oakwood,NYC,1
+Ozone Park,NYC,4
+Park Slope,NYC,3
+Park Versailles,NYC,1
+Parkchester,NYC,4
+Pelham Bay,NYC,1
+Port Morris,NYC,4
+Port Richmond,NYC,4
+Prospect Heights,NYC,4
+Queens,NYC,3
+Randall Manor,NYC,1
+Red Hook,NYC,4
+Rego Park,NYC,3
+Richmond Hill,NYC,1
+Ridgewood,NYC,4
+Riverdale,NYC,4
+Roosevelt Island,NYC,1
+Rosebank,NYC,1
+Rossville,NYC,4
+Sea Gate,NYC,4
+Sheepshead Bay,NYC,1
+Silver Lake,NYC,5
+Soho,NYC,4
+Soundview,NYC,4
+South Beach,NYC,1
+South Ozone Park,NYC,2
+South Street Seaport,NYC,4
+Spuyten Duyvil,NYC,1
+St. George,NYC,3
+Stapleton,NYC,1
+Sunnyside,NYC,4
+Sunset Park,NYC,4
+The Bronx,NYC,1
+The Rockaways,NYC,4
+Throgs Neck,NYC,4
+Times Square/Theatre District,NYC,4
+Todt Hill,NYC,4
+Tompkinsville,NYC,4
+Tottenville,NYC,1
+Tremont,NYC,1
+Tribeca,NYC,4
+Union Square,NYC,4
+University Heights,NYC,4
+Upper East Side,NYC,4
+Upper West Side,NYC,1
+Utopia,NYC,3
+Van Nest,NYC,4
+Vinegar Hill,NYC,1
+Wakefield,NYC,4
+Washington Heights,NYC,4
+West Brighton,NYC,3
+West Farms,NYC,4
+West Village,NYC,2
+Westchester Village,NYC,4
+Westerleigh,NYC,4
+Whitestone,NYC,4
+Williamsbridge,NYC,1
+Williamsburg,NYC,4
+Willowbrook,NYC,1
+Windsor Terrace,NYC,3
+Woodhaven,NYC,1
+Woodlawn,NYC,4
+Woodside,NYC,1
+Alamo Square,SF,3
+Balboa Terrace,SF,3
+Bayview,SF,4
+Bernal Heights,SF,3
+Chinatown,SF,4
+Civic Center,SF,3
+Cole Valley,SF,2
+Cow Hollow,SF,3
+Crocker Amazon,SF,1
+Daly City,SF,4
+Diamond Heights,SF,3
+Dogpatch,SF,1
+Downtown,SF,1
+Duboce Triangle,SF,4
+Excelsior,SF,1
+Financial District,SF,4
+Fisherman's Wharf,SF,4
+Forest Hill,SF,4
+Glen Park,SF,1
+Haight-Ashbury,SF,4
+Hayes Valley,SF,1
+Ingleside,SF,4
+Inner Sunset,SF,2
+Japantown,SF,3
+Lakeshore,SF,4
+Lower Haight,SF,4
+Marina,SF,4
+Mission Bay,SF,1
+Mission District,SF,4
+Mission Terrace,SF,1
+Nob Hill,SF,3
+Noe Valley,SF,4
+North Beach,SF,4
+Oceanview,SF,3
+Outer Sunset,SF,4
+Pacific Heights,SF,4
+Parkside,SF,4
+Portola,SF,4
+Potrero Hill,SF,1
+Presidio,SF,1
+Presidio Heights,SF,4
+Richmond District,SF,4
+Russian Hill,SF,4
+Sea Cliff,SF,4
+SoMa,SF,4
+South Beach,SF,2
+Sunnyside,SF,1
+Telegraph Hill,SF,4
+Tenderloin,SF,4
+The Castro,SF,1
+Twin Peaks,SF,4
+Union Square,SF,3
+Visitacion Valley,SF,1
+West Portal,SF,1
+Western Addition/NOPA,SF,1
