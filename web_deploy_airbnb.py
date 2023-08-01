@@ -29,7 +29,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://cleaningbusinesstoday.com/wp-content/uploads/EasyDNNNews/1937/600600p3069EDNmain1937airbnb-nyc-600-x-250.jpg");
+             background: url("https://img4.cityrealty.com/neo/i/p/mig/airbnb_guide.jpg");
              background-size: cover
          }}
          </style>
