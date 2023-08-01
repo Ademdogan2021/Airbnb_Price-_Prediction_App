@@ -17,9 +17,30 @@ import joblib
 filename = 'finalized_model.sav'
 model = joblib.load(filename)
 
+def set_bg_hack_url():
+    '''
+    A function to unpack an image from url and set as bg.
+    Returns
+    -------
+    The background.
+    '''
+        
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background: url("https://cleaningbusinesstoday.com/wp-content/uploads/EasyDNNNews/1937/600600p3069EDNmain1937airbnb-nyc-600-x-250.jpg");
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
 
 def main():
     #Setting Application title
+    set_bg_hack_url()
     st.title('NETA Airbnb Model App')
 
       #Setting Application description
