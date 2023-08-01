@@ -59,7 +59,7 @@ def main():
     "How would you like to predict?", ("Online", "Batch"))
     st.sidebar.info('This app is created to predict Airbnb use case')
     st.sidebar.image(image)
-    st.sidebar.info('This app uses Gradient Boosting Model (GBM)')
+    st.sidebar.info('This app uses Extreme Gradient Boosting Model (XGBoost)')
     #st.sidebar.image(image1)
     
     if (add_selectbox == "Online"):
