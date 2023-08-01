@@ -29,7 +29,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://img4.cityrealty.com/neo/i/p/mig/airbnb_guide.jpg");
+             background: url("https://outoftownblog.com/wp-content/uploads/2020/07/Duplex-Airbnb-Residence-with-Breathtaking-NYC-View-700x466.jpg");
              background-size: cover
          }}
          </style>
