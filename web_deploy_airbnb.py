@@ -296,7 +296,7 @@ def main():
           df['property_type_House'] = df['property_type'].apply(lambda x: 1 if x == 'House' else 0)
           df['property_type_Loft'] = df['property_type'].apply(lambda x: 1 if x == 'Loft' else 0)
           df['property_type_Other'] = df['property_type'].apply(lambda x: 1 if x not in property_types else 0)
-          df['property_type_Other'] = df['property_type'].apply(lambda x: 1 if x not in property_types else 0)
+          # df['property_type_Other'] = df['property_type'].apply(lambda x: 1 if x not in property_types else 0)
           df['property_type_Townhouse'] = df['property_type'].apply(lambda x: 1 if x == 'Townhouse' else 0)
 
           #room_type
